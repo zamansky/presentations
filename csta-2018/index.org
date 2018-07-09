@@ -1,0 +1,180 @@
+#+REVEAL_ROOT: ../reveal.js/
+#+REVEAL_THEME: serif
+#+OPTIONS: toc:nil num:nil date:nil email:t 
+#+OPTIONS: reveal_title_slide:"<h1>%t</h1><br><h3>mz631@hunter.cuny.edu</h3><p><h3>@zamansky</h3><h3>http://cestlaz.github.io</h3>"
+#+TITLE: Teacher Certification in NY
+#+AUTHOR: Mike Zamansky
+#+EMAIL: Email: mz631@hunter.cuny.edu<br>Twitter: @zamansky
+
+
+* Thanks GitHub
+
+- GitHub Teacher Training
+  https://education.github.com/teachers/advisors
+- GitHub School Partners
+  https://education.github.com/partners/schools 
+#+BEGIN_NOTES
+schools that teach kids over 13 can apply
+#+END_NOTES
+
+* Who am I
+- 26 year public school teacher
+- Came from industry
+- Licensed in math, taught CS
+#+ATTR_REVEAL: :frag t
+- Resident Curmudgeon in the NYC CS Ed space
+
+  [[file:./muppets-statler-waldorf.jpg]]
+
+#+BEGIN_NOTES
+- came in with minimal teacher prep
+- wouldn't hire myself
+- learned through apprenticeship
+- learned to be skeptical of "research"
+- go over how I was certified
+#+END_NOTES
+
+* NYC History
+- Spring 1984 - First administration of APCS
+- 1990s
+  - Computer Math
+  - Misc Programming classes
+  - APCS A / AB
+- Late 90s, early 2000s
+  - Lobbying from individual teachers
+#+REVEAL: split
+- ~2009
+  - NY Tech players become involved
+  - NYC Mayor Bloomberg becomes involved
+- 2012 - AFSE
+- 2015 
+  - Mayor di Blasio CS4All 
+  - Programs like SEP, TEALS and others
+
+- 2016 - Hunter starts talking to Albany
+- 2017 - My first visit to Albany
+#+BEGIN_NOTES
+- Opposition from NYSUT
+- Interest across state
+- Probably more industry push than academic
+#+END_NOTES
+
+
+* NY State Certification Requirements
+- K12 Certification
+- 12 CS Credits in program
+- 50 fieldwork hours for certificate
+- Five major "areas:"
+  - Algorithms and Programming	
+  - Computing Systems	
+  - Data and Analysis	
+  - Impacts of computing	
+  - Networks and the Internet
+- Will create a certification exam
+- Will work on standards
+#+BEGIN_NOTES
+- Why k12 is bad - too much for elementary teachers
+- Standards are for tests when you have good teachers
+#+END_NOTES
+
+* Why Hunter?
+- Long standing reputation for teacher prep
+- Hidden strengths of the Hunter School of Education
+#+BEGIN_NOTES
+- cost/location/adjuncts
+#+END_NOTES
+* Hallmarks of Hunter's approach
+- Designed from a practitioner perspective
+- Active involvement from both CS and Ed sides
+- Not tied to any particular course, framework or curriculum
+- Combines content and pedagogy
+- "Extras" woven throughout
+  - Ethics
+  - Tools
+  - Full pipeline sensibilities
+#+BEGIN_NOTES
+- curricula and frameworks  - talk about all of them
+- tools - must give teachers a practical set to start with
+- will talk about pipeline more later
+#+END_NOTES
+* Content
+- Depth
+- Breadth
+- Fulfilling state requirements
+#+BEGIN_NOTES
+- talk about each bullet in depth 
+  - don't need algorithms but had to include it
+- no math for math teacher courses
+- talk about having to rename courses
+- roughly a minor - most areas require too many credits
+#+END_NOTES
+* Pedagogy
+- Methods 1 and 2
+- Curriculum development
+- Content in ed courses.
+#+BEGIN_NOTES
+- content heavy pedagogy courses
+- choosing a language, other peoples code, code reading
+- go over the tools/languages we teach and why
+- Modeling good teaching 
+- Why curriculum course
+- On curriculum development why I don't believe in standards.
+- curriculum course and field work
+#+END_NOTES
+
+* Fieldwork
+- All grade bands
+- Finding suitable placements
+- Making it legal
+- Making it good
+* Extras
+- Must be worked throughout the core
+- Ethics
+- Full pipeline sensibilities
+   - designing full experiences for students
+   - teachers who know full pipeline from previous grades to workforce
+
+#+BEGIN_NOTES
+- Full pipeline - students from before to after they leave you
+- Fill pipeline - teachers - all the way to continuing pd
+- Modeling good teaching 
+- Modeling good CS
+- Daily digital / current events
+ #+END_NOTES
+* Extras 
+- Tools
+  - Using real tools throughout the program
+  - Leave teachers with at least one practical set of tools-
+    - GitHub in teacher program -> GitHub in classrooms
+    - Slack / mail lists
+    - transition - learning IDEs vs pro tools 
+#+BEGIN_NOTES
+- must be baked in 
+  - talk about why ethics course "bad" even though I'm making ones
+- tools lets you model 
+  - maybe show GitHub or at least talk about it.
+#+END_NOTES
+* Ongoing support
+- Ongoing PD at Hunter
+- Ongoing PD with Tech Sector partners
+#+BEGIN_NOTES
+- CTLE hours
+- Intern at tech companies
+#+END_NOTES
+
+
+* Differing opinions 
+- Not enough jobs for full time teachers
+- It's too hard
+- We'll lose them all to industry
+
+* Takeaways
+- Content + Pedagogy
+- Tools to support them from day 1
+- Teachers prepared to teach now and in the future
+
+* Conversation
+
+
+
+
