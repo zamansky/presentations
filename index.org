@@ -1,4 +1,4 @@
 
 
 * My presentations
-[[./csta-2017/index.html][CSTA 2-18]]
+[[./csta-2018/index.html][CSTA 2018]
