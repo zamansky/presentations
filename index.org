@@ -2,3 +2,4 @@
 
 * My presentations
 [[./csta-2018/index.html][CSTA 2018]]
+[[./navigating-hs-to-college-in-techcsta/index.html][Navigating High School to College in Tech]]
