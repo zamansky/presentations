@@ -57,11 +57,9 @@ How is NY different from California vs Seattle vs others
 * Hunter CS Highlights
 - Comprehensive CS Curriculum
 - Computer Vision
-- Graphics
 - Artificial Intelligence
 - Computational Linguistics
 - Software Engineering
-- Graph Theory / Networks
 - Robotics
 
 * Hunter CS Highlights
