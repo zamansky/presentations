@@ -65,8 +65,8 @@ How is NY different from California vs Seattle vs others
 * Hunter CS Highlights
 - ACM
 - NCWIT
-- Daedalus
 - CUNY2X
+- Daedalus
 #+BEGIN_NOTES
 Talk about CUNY2X in detail
 #+END_NOTES
