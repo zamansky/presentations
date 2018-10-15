@@ -1,7 +1,7 @@
 #+REVEAL_ROOT: ../reveal.js/
 #+REVEAL_THEME: serif
 #+OPTIONS: toc:nil num:nil date:nil email:t 
-#+OPTIONS: reveal_title_slide:"<h3>%t</h3><br><h3>mz631@hunter.cuny.edu</h3><p><h3>@zamansky</h3><h3>http://cestlaz.github.io</h3>"
+#+OPTIONS: reveal_title_slide:"<h3>%t</h3><br><h3>%a<br>mz631@hunter.cuny.edu</h3><p><h3>@zamansky</h3><h3>cestlaz.github.io</h3>"
 #+TITLE:  Navigating from HS to College in Tech
 #+AUTHOR: Mike Zamansky
 #+EMAIL: Email: mz631@hunter.cuny.edu<br>Twitter: @zamansky
@@ -12,7 +12,7 @@
 
 * Tech sectors
 #+ATTR_REVEAL: :frag (t)
-- What is the biggest tech sector in the world?
+- Where is the biggest tech sector in the world?
 - Second?
 #+BEGIN_NOTES
 What's biggest tech sector? 
@@ -84,3 +84,4 @@ Talk about CUNY2X in detail
 - Mike Zamansky
 - mz631@hunter.cuny.edu
 - @zamansky
+- cestlaz.github.io
