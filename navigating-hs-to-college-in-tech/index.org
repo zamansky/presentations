@@ -16,8 +16,9 @@
 - Tech giants, startups and everything in between
 - Tech for all industries
 - CS + X
-- New York Tech Alliance and other organizations
 - Civic Tech
+- New York Tech Alliance and other organizations
+
 
 * 
 - It's not just about the school
@@ -27,8 +28,6 @@
 #+ATTR_REVEAL: frag (t)
 - CS Major vs Minor
 - BA vs BS
-- CS vs IT
-- Specialty majors
 
 * Tech Education in NY
 #+ATTR_REVEAL: :frag (t)
