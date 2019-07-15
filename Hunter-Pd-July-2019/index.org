@@ -15,12 +15,16 @@
 - We want to travel by subway
 - We want to start and end at Hunter
 - We want to find the best route
-
+#+BEGIN_NOTES
+Don't define best
+#+END_NOTES
 * What do we need?
 #+ATTR_REVEAL: :frag (reveal reveal)
 1. A map of the city
 2. Subway routes
-
+#+BEGIN_NOTES
+Don't reveal - just give out one or the other if they're suggested at first
+#+END_NOTES
 * Take some time to figure out the best tour?
 #+ATTR_REVEAL: :frag (t t t)
 - What was your route?
@@ -43,6 +47,9 @@ This time with a subway maps
 - Why?
 - Did this change how you made your routes?
 - What other information would you need 
+#+BEGIN_NOTES
+We need time tables, time between stops, service changes etc.
+#+END_NOTES
 * Abstractions!!!
 
 The maps are abstractions:
@@ -57,3 +64,6 @@ and hides unnecessary detail
 * Can we Abstract further?
 #+ATTR_REVEAL: :frag(t)
 - We can build a graph
+#+BEGIN_NOTES
+Build a subset of the subway / attraction graph on board
+#+END_NOTES
