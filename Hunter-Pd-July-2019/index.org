@@ -15,18 +15,19 @@
 - We want to travel by subway
 - We want to start and end at Hunter
 - We want to find the best route
+
 * What do we need?
-#+ATTR_REVEAL: :frag(t)
-- A map of the city
-- Subway routes
+#+ATTR_REVEAL: :frag (reveal reveal)
+1. A map of the city
+2. Subway routes
 
 * Take some time to figure out the best tour?
-#+ATTR_REVEAL: :frag(t)
-- What was your tour
+#+ATTR_REVEAL: :frag (t t t)
+- What was your route?
+- What factors influenced your route?
 - What were your challenges in defining the tour?
 
 * Let's try again
-
 This time with a subway maps
 
 - Tamany Hall (18th and Park Ave)
@@ -36,9 +37,15 @@ This time with a subway maps
 - The New York Public Library Main Branch (42nd and 5th)
 - Grand Central Station (42nd and Lexington)
 
+* Differences?
+#+ATTR_REVEAL: :frag (t t t t)
+- Was it harder or easier?
+- Why?
+- Did this change how you made your routes?
+- What other information would you need 
 * Abstractions!!!
 
-The maps are abstracions:
+The maps are abstractions:
 
 #+BEGIN_QUOTE
 Abstraction: 
