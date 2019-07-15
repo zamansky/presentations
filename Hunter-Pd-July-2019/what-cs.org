@@ -2,4 +2,31 @@
 #+REVEAL_THEME: serif
 #+OPTIONS: toc:nil num:nil date:nil email:t  reveal_title_slide:nil
 
-* What is CS
+* What is CS?
+#+BEGIN_NOTES
+Pass out post it notes
+
+Put on flip chart paper
+#+END_NOTES
+* What isn't CS?
+#+BEGIN_NOTES
+Add on to last activity
+#+END_NOTES
+* What is CT?
+#+BEGIN_NOTES
+Add on to last activity
+#+END_NOTES
+* Why CS/CT?
+#+BEGIN_NOTES
+Add on to last activity
+#+END_NOTES
+* How can we bring CS/CT to K-12 Learners
+#+BEGIN_NOTES
+Brain storm at tables
+
+Build to flip chart paper
+
+Finally, organize flip chart into categories 
+#+END_NOTES
+
+

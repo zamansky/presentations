@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title></title>
+<meta name="author" content="(Mike Zamansky)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="../reveal-root/css/reveal.css"/>
+
+<link rel="stylesheet" href="../reveal-root/css/theme/serif.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = '../reveal-root/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<section>
+<section id="slide-orgb11f224">
+<h2 id="orgb11f224">What is CS?</h2>
+<aside class="notes">
+<p>
+Pass out post it notes
+</p>
+
+<p>
+Put on flip chart paper
+</p>
+
+</aside>
+</section>
+</section>
+<section>
+<section id="slide-org00e4fcc">
+<h2 id="org00e4fcc">What isn't CS?</h2>
+<aside class="notes">
+<p>
+Add on to last activity
+</p>
+
+</aside>
+</section>
+</section>
+<section>
+<section id="slide-org778a890">
+<h2 id="org778a890">What is CT?</h2>
+<aside class="notes">
+<p>
+Add on to last activity
+</p>
+
+</aside>
+</section>
+</section>
+<section>
+<section id="slide-org3197ce7">
+<h2 id="org3197ce7">Why CS/CT?</h2>
+<aside class="notes">
+<p>
+Add on to last activity
+</p>
+
+</aside>
+</section>
+</section>
+<section>
+<section id="slide-org6841211">
+<h2 id="org6841211">How can we bring CS/CT to K-12 Learners</h2>
+<aside class="notes">
+<p>
+Brain storm at tables
+</p>
+
+<p>
+Build to flip chart paper
+</p>
+
+<p>
+Finally, organize flip chart into categories 
+</p>
+
+</aside>
+</section>
+</section>
+</div>
+</div>
+<script src="../reveal-root/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: '../reveal-root/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: '../reveal-root/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: '../reveal-root/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: '../reveal-root/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: '../reveal-root/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>
