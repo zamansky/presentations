@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title></title>
+<meta name="author" content="(Mike Zamansky)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="../reveal-root/css/reveal.css"/>
+
+<link rel="stylesheet" href="../reveal-root/css/theme/serif.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = '../reveal-root/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<section>
+<section id="slide-org36fe33e">
+<h2 id="org36fe33e">Time for a tour</h2>
+<p>
+We want to see some of NY:
+</p>
+<ul>
+<li>The Morgan Library on 36th and Madison</li>
+<li>St. Patricks Cathedral on 51st and 5th</li>
+<li>St. John the Divine at 116th and Amsterdam</li>
+<li>Madison Square Garden on 33rd and 7th</li>
+<li>Lincoln Center on 66th and Broadway</li>
+<li>The Museum of the City of New York  104th street and 5th av</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgd4c522e">
+<h2 id="orgd4c522e">Rules</h2>
+<ul>
+<li>We want to travel by subway</li>
+<li>We want to start and end at Hunter</li>
+<li>We want to find the best route</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org2203632">
+<h2 id="org2203632">What do we need?</h2>
+<ul>
+<li>A map of the city</li>
+<li>Subway routes</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgb8d5d50">
+<h2 id="orgb8d5d50">Take some time to figure out the best tour?</h2>
+<ul>
+<li>What was your tour</li>
+<li>What were your challenges in defining the tour?</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgfb49fa2">
+<h2 id="orgfb49fa2">Let's try again</h2>
+<p>
+This time with a subway maps
+</p>
+
+<ul>
+<li>Tamany Hall (18th and Park Ave)</li>
+<li>The New York Historical Society (79th and Central Park West)</li>
+<li>The Empire State Building (34th and 5th)</li>
+<li>Gracie Mansion (88th and East End Ave)</li>
+<li>The New York Public Library Main Branch (42nd and 5th)</li>
+<li>Grand Central Station (42nd and Lexington)</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org2aa9358">
+<h2 id="org2aa9358">Abstractions!!!</h2>
+<p>
+The maps are abstracions:
+</p>
+
+<blockquote nil>
+<p>
+Abstraction: 
+</p>
+
+<p>
+Creating a representation that shows useful information
+and hides unnecessary detail
+</p>
+</blockquote>
+
+</section>
+</section>
+<section>
+<section id="slide-org5242fb3">
+<h2 id="org5242fb3">Can we Abstract further?</h2>
+<ul>
+<li>We can build a graph</li>
+
+</ul>
+</section>
+</section>
+</div>
+</div>
+<script src="../reveal-root/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: '../reveal-root/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: '../reveal-root/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: '../reveal-root/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: '../reveal-root/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: '../reveal-root/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>

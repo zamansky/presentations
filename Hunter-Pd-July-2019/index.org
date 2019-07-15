@@ -1,0 +1,52 @@
+#+REVEAL_ROOT: ../reveal-root
+#+REVEAL_THEME: serif
+#+OPTIONS: toc:nil num:nil date:nil email:t  reveal_title_slide:nil
+
+* Time for a tour
+* We want to see some of NY:
+- The Morgan Library on 36th and Madison
+- St. Patricks Cathedral on 51st and 5th
+- St. John the Divine at 116th and Amsterdam
+- Madison Square Garden on 33rd and 7th 
+- Lincoln Center on 66th and Broadway
+- The Museum of the City of New York  104th street and 5th av
+
+* Rules
+- We want to travel by subway
+- We want to start and end at Hunter
+- We want to find the best route
+* What do we need?
+#+ATTR_REVEAL: :frag(t)
+- A map of the city
+- Subway routes
+
+* Take some time to figure out the best tour?
+#+ATTR_REVEAL: :frag(t)
+- What was your tour
+- What were your challenges in defining the tour?
+
+* Let's try again
+
+This time with a subway maps
+
+- Tamany Hall (18th and Park Ave)
+- The New York Historical Society (79th and Central Park West)
+- The Empire State Building (34th and 5th)
+- Gracie Mansion (88th and East End Ave)
+- The New York Public Library Main Branch (42nd and 5th)
+- Grand Central Station (42nd and Lexington)
+
+* Abstractions!!!
+
+The maps are abstracions:
+
+#+BEGIN_QUOTE
+Abstraction: 
+
+Creating a representation that shows useful information
+and hides unnecessary detail
+#+END_QUOTE
+
+* Can we Abstract further?
+#+ATTR_REVEAL: :frag(t)
+- We can build a graph
