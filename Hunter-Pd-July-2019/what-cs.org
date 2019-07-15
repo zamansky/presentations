@@ -1,0 +1,5 @@
+#+REVEAL_ROOT: ../reveal-root
+#+REVEAL_THEME: serif
+#+OPTIONS: toc:nil num:nil date:nil email:t  reveal_title_slide:nil
+
+* What is CS
