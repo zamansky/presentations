@@ -67,3 +67,9 @@ and hides unnecessary detail
 #+BEGIN_NOTES
 Build a subset of the subway / attraction graph on board
 #+END_NOTES
+
+* How can you adapt this?
+#+ATTR_REVEAL: :frag(t t)
+- Can we make this more relevant to your classes?
+- Can we use this idea of abstraction in other lessons?
+
