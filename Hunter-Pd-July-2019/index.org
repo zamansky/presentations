@@ -2,6 +2,6 @@
 #+REVEAL_THEME: serif
 #+OPTIONS: toc:nil num:nil date:nil email:t  reveal_title_slide:nil
 
-* My presentations
+* Decks
 - [[./what-cs.html][What is CS?]]
 - [[./tour.html][Tour]]
