@@ -2,23 +2,30 @@
 #+REVEAL_THEME: serif
 #+OPTIONS: toc:nil num:nil date:nil email:t  reveal_title_slide:nil
 
+
+
 * What is CS?
+#+ATTR_REVEAL: :frag (reveal reveal)
+- What is CS?
+- What isn't CS?
+
 #+BEGIN_NOTES
 Pass out post it notes
 
 Put on flip chart paper
-#+END_NOTES
-* What isn't CS?
-#+BEGIN_NOTES
-Add on to last activity
+
+Give time and then write up on board
 #+END_NOTES
 * What is CT?
+#+ATTR_REVEAL: :frag (reveal reveal)
+- What is CT?
+- What isn't CT?
+- What's the difference between CS and CT?
 #+BEGIN_NOTES
 Add on to last activity
-#+END_NOTES
-* Why CS/CT?
-#+BEGIN_NOTES
-Add on to last activity
+
+Try to organize all of this into areas (maybe multiple ways)
+
 #+END_NOTES
 * How can we bring CS/CT to K-12 Learners
 #+BEGIN_NOTES
