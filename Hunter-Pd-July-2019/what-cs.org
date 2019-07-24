@@ -27,6 +27,19 @@ Add on to last activity
 Try to organize all of this into areas (maybe multiple ways)
 
 #+END_NOTES
+* Let's see what others say
+#+BEGIN_NOTES
+Do search for Computer science and computational thinking
+- computer science definition
+- what is computer science
+
+Three minute video: https://www.youtube.com/watch?v=AnVBCyzNgaU
+Not so good: https://www.youtube.com/watch?v=-xFJM3QQ3TE
+
+CT - https://www.cs.cmu.edu/~CompThink/resources/TheLinkWing.pdf
+
+#+END_NOTES
+
 * How can we bring CS/CT to K-12 Learners
 #+BEGIN_NOTES
 Brain storm at tables
