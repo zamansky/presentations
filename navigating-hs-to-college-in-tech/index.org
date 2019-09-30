@@ -10,24 +10,27 @@
 * Who am I
 
 
-* Tech in NY
+* Choosing a college
 #+ATTR_REVEAL: :frag (t)
-- Big, Vibrant, Diverse
-- Tech giants, startups and everything in between
-- Tech for all industries
-- CS + X
-- Civic Tech
-- New York Tech Alliance and other organizations
-
+- What is your "first choice" colleg?
+- Why?
 
 * 
 - It's not just about the school
 - You are also choosing a community
 
+* Things to consider
+#+ATTR_REVEAL: :frag (t)
+- Urban vs Rural
+- Home vs Away
+- Big vs Small
+- Why consider NY?
+- Why consider NY for tech?
+  
 * Tech Education
-#+ATTR_REVEAL: frag (t)
-- CS Major vs Minor
-- BA vs BS
+- Bachelor of Science
+- Bachelor of Arts 
+- Other tech majors / minors
 
 * Tech Education in NY
 #+ATTR_REVEAL: :frag (t)
@@ -56,14 +59,18 @@
 - Software Engineering
 - Robotics
 
-* Hunter CS Highlights
+* Hunter CS Community
 - ACM
+- Programming team 
 - NCWIT
 - CUNY2X
 - Daedalus
-#+BEGIN_NOTES
-Talk about CUNY2X in detail
-#+END_NOTES
+
+* CUNY2X
+- Boot camps on campus
+- Workshops
+- Tech in residence
+- Internship opportunities
 
 * Daedalus Highlights
 - Tuition awards
