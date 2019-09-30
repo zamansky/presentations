@@ -1,0 +1,83 @@
+#+REVEAL_ROOT: ../reveal-root
+#+REVEAL_THEME: serif
+#+OPTIONS: toc:nil num:nil date:nil email:t 
+#+OPTIONS: reveal_title_slide:"<h3>%t</h3><br><h3>%a<br>mz631@hunter.cuny.edu</h3><p><h3>@zamansky</h3><h3>cestlaz.github.io</h3>"
+#+TITLE:  Navigating from HS to College in Tech
+#+AUTHOR: Mike Zamansky
+#+EMAIL: Email: mz631@hunter.cuny.edu<br>Twitter: @zamansky
+
+
+* Who am I
+
+
+* Tech in NY
+#+ATTR_REVEAL: :frag (t)
+- Big, Vibrant, Diverse
+- Tech giants, startups and everything in between
+- Tech for all industries
+- CS + X
+- Civic Tech
+- New York Tech Alliance and other organizations
+
+
+* 
+- It's not just about the school
+- You are also choosing a community
+
+* Tech Education
+#+ATTR_REVEAL: frag (t)
+- CS Major vs Minor
+- BA vs BS
+
+* Tech Education in NY
+#+ATTR_REVEAL: :frag (t)
+- Many great programs
+- Many *expensive* programs
+- NY needs a great, affordable option
+
+* CS Educations Dirty Secret
+#+ATTR_REVEAL: :frag (t)
+- CS is CS is CS
+* It's about culture and fit
+
+* Hunter Highlights
+- Largest CUNY College
+- Students from over 150 countries
+- 40% male 60% female
+- Varsity and intramural sports
+- Hundreds of clubs
+- Centrally located in the heartof NYC
+- One of the country's best value colleges
+* Hunter CS Highlights
+- Comprehensive CS Curriculum
+- Computer Vision
+- Artificial Intelligence
+- Computational Linguistics
+- Software Engineering
+- Robotics
+
+* Hunter CS Highlights
+- ACM
+- NCWIT
+- CUNY2X
+- Daedalus
+#+BEGIN_NOTES
+Talk about CUNY2X in detail
+#+END_NOTES
+
+* Daedalus Highlights
+- Tuition awards
+- Residential priority
+- Tailored classes
+- Faculty mentor
+- Partnerships with the NY Tech Industry
+- Cohort activities
+- Laptops
+- Located in the heart of NYC
+* For more information
+- http://info.huntercs.org
+* Fin
+- Mike Zamansky
+- mz631@hunter.cuny.edu
+- @zamansky
+- cestlaz.github.io

@@ -2,7 +2,5 @@
 #+REVEAL_THEME: serif
 #+OPTIONS: toc:nil num:nil date:nil email:t  reveal_title_slide:nil
 
-* My presentations
-- [[./Hunter-Pd-July-2019/index.html][PD July 2019]]
-- [[./csta-2018/index.html][CSTA 2018]]
+* Active presentations
 - [[./navigating-hs-to-college-in-tech/index.html][Navigating High School to College in Tech]]
