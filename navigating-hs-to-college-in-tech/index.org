@@ -12,16 +12,16 @@
 
 * Choosing a college
 #+ATTR_REVEAL: :frag (t)
-- What is your "first choice" colleg?
+- What is your "first choice" college?
 - Why?
 
-* 
-- It's not just about the school
-- You are also choosing a community
+* It's not just about the school
+
 
 * Things to consider
 #+ATTR_REVEAL: :frag (t)
 - Urban vs Rural
+- Community
 - Home vs Away
 - Big vs Small
 - Why consider NY?
@@ -62,7 +62,7 @@
 * Hunter CS Community
 - ACM
 - Programming team 
-- NCWIT
+- WICS
 - CUNY2X
 - Daedalus
 
