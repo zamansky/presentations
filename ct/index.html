@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Computational Thinking</title>
+<meta name="author" content="(Mike Zamansky)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="../reveal-root/css/reveal.css"/>
+
+<link rel="stylesheet" href="../reveal-root/css/theme/serif.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = '../reveal-root/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1>Computational Thinking</h1><br><h3>mz631@hunter.cuny.edu</h3><p><h3>@zamansky</h3><h3>http://cestlaz.github.io</h3>
+</section>
+
+
+<section>
+<section id="slide-orgb2314ba">
+<h2 id="orgb2314ba">Making a paper plane</h2>
+</section>
+</section>
+<section>
+<section id="slide-orgc4cb1c7">
+<h2 id="orgc4cb1c7">Computational Thinking</h2>
+<ul>
+<li class="fragment">What is Computational Thinking
+<ul>
+<li class="fragment">Algorithms</li>
+<li class="fragment">Abstraction</li>
+<li class="fragment">Decomposition</li>
+<li class="fragment">Patterns</li>
+<li class="fragment">Debugging</li>
+
+</ul></li>
+<li class="fragment">Computer Science vs Computational Thinking</li>
+<li class="fragment">Computational Thinking vs Other Thinking</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org6ca8aba">
+<h2 id="org6ca8aba">Why</h2>
+<ul>
+<li class="fragment">For our students
+<ul>
+<li>Expose them to the preliminaries of Computer Science</li>
+<li>Give them additional problem solving tools</li>
+<li>Relate different subject areas with a consistant language</li>
+
+</ul></li>
+<li class="fragment">Also - CSforAll</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org6120c39">
+<h2 id="org6120c39">Summer PD</h2>
+<ul>
+<li>Introduction to CT (unplugged)</li>
+<li>Introduction to CT (plugged)</li>
+<li>Embedding CT into other subjects</li>
+<li>Lesson and unit development</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgc92436c">
+<h2 id="orgc92436c">School Year implementation</h2>
+<ul>
+<li>Deliver CT in core subject areas with support</li>
+<li>Work with a student teacher</li>
+
+</ul>
+</section>
+</section>
+</div>
+</div>
+<script src="../reveal-root/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: '../reveal-root/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: '../reveal-root/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: '../reveal-root/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: '../reveal-root/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: '../reveal-root/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>

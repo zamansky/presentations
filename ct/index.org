@@ -1,0 +1,36 @@
+#+REVEAL_ROOT: ../reveal-root/
+#+REVEAL_THEME: serif
+#+OPTIONS: toc:nil num:nil date:nil email:t 
+#+OPTIONS: reveal_title_slide:"<h1>%t</h1><br><h3>mz631@hunter.cuny.edu</h3><p><h3>@zamansky</h3><h3>http://cestlaz.github.io</h3>"
+#+TITLE: Computational Thinking
+#+AUTHOR: Mike Zamansky
+#+EMAIL: Email: mz631@hunter.cuny.edu<br>Twitter: @zamansky
+
+
+* Making a paper plane
+* Computational Thinking
+#+ATTR_REVEAL: :frag (t)
+- What is Computational Thinking
+  #+ATTR_REVEAL: :frag (t)
+  - Algorithms
+  - Abstraction
+  - Decomposition
+  - Patterns
+  - Debugging 
+- Computer Science vs Computational Thinking
+- Computational Thinking vs Other Thinking
+* Why
+#+ATTR_REVEAL: :frag (t)
+- For our students
+  - Expose them to the preliminaries of Computer Science
+  - Give them additional problem solving tools
+  - Relate different subject areas with a consistant language
+- Also - CSforAll
+* Summer PD
+- Introduction to CT (unplugged)
+- Introduction to CT (plugged)
+- Embedding CT into other subjects
+- Lesson and unit development
+* School Year implementation
+- Deliver CT in core subject areas with support
+- Work with a student teacher 
