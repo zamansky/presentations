@@ -26,6 +26,16 @@
   - Give them additional problem solving tools
   - Relate different subject areas with a consistant language
 - Also - CSforAll
+* Challenges and solutions
+#+ATTR_REVEAL: :frag (t)_
+** Challenges
+- CT and CS are new to many teachers
+- Teacher and student supports are limited
+- The Digital Divide and equipment ralated challenges
+** Soltutions
+- Embed CT in core subjects to enhance instruction
+- Use unplugged techniques that can lead to plugged activities
+- Create a support network of educators
 * Summer PD
 - Introduction to CT (unplugged)
 - Introduction to CT (plugged)
