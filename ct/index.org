@@ -36,14 +36,15 @@
 - Embed CT in core subjects to enhance instruction
 - Use unplugged techniques that can lead to plugged activities
 - Create a support network of educators
-* Summer PD
+* The plan
+** Summer PD
 - Introduction to CT (unplugged)
 - Introduction to CT (plugged)
 - Embedding CT into other subjects
 - Lesson and unit development
-* School Year implementation
+** School Year implementation
 - Deliver CT in core subject areas with support
 - Work with a student teacher 
-* Other project goals
+** Other project goals
 - Research best practices and techniques
 - Implement these in Hunter's pre-service teacher coursework
