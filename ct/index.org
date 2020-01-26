@@ -32,7 +32,7 @@
 - CT and CS are new to many teachers
 - Teacher and student supports are limited
 - The Digital Divide and equipment ralated challenges
-** Soltutions
+** Solutions
 - Embed CT in core subjects to enhance instruction
 - Use unplugged techniques that can lead to plugged activities
 - Create a support network of educators
@@ -44,3 +44,6 @@
 * School Year implementation
 - Deliver CT in core subject areas with support
 - Work with a student teacher 
+* Other project goals
+- Research best practices and techniques
+- Implement these in Hunter's pre-service teacher coursework
