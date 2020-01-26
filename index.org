@@ -4,3 +4,5 @@
 
 * Active presentations
 - [[./navigating-hs-to-college-in-tech/index.html][Navigating High School to College in Tech]]
+- [[./ct/index.html][Computational Thinking]]
+ 
