@@ -1,0 +1,198 @@
+#+REVEAL_ROOT: ../reveal-root/
+#+REVEAL_THEME: serif
+#+OPTIONS: toc:nil num:nil date:nil email:t 
+#+OPTIONS: reveal_title_slide:"<h1>%t</h1><br><h3>mz631@hunter.cuny.edu</h3><p><h3>@zamansky</h3>"
+#+TITLE: [[file:github.png]]
+#+AUTHOR: Mike Zamansky
+#+EMAIL: Email: mz631@hunter.cuny.edu<br>Twitter: @zamansky
+#+OPTIONS: reveal_title_slide:nil
+
+
+* 
+#+BEGIN_EXPORT html
+<img height="200" src="github.png">
+#+END_EXPORT
+
+#+BEGIN_EXPORT html
+<style>
+
+#left {
+  left:-8.33%;
+  text-align: left;
+  float: left;
+  width:75%;
+  z-index:-10;
+}
+
+#right {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: right;
+  z-index:-10;
+  width:25%;
+}
+</style>
+
+<div id="left">
+
+<p>Taking Your Students from GitHub</p>
+<p>Newbies to Pull Request Masters</p>
+
+<p>Mike Zamansky @zamansky</p>
+<p>Nathaniel Woodthorpe</p>
+
+</div>
+<div id="right">  
+<img height="200" src="hunter2.jpg">
+</div>
+
+#+END_EXPORT
+
+
+#+BEGIN_NOTES
+schools that teach kids over 13 can apply
+#+END_NOTES
+
+* Why are we here?
+#+ATTR_REVEAL: :frag (t)
+- Sharing materials with students is hard
+- Project collection / grading / feedback is hard
+- Students should learn real world tools
+- learning Git on top of everything adds to cognitive load
+- but it's worth it!!!!!!!
+* History of submitting work
+#+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+- blackboard / rexos
+- printouts / floppys
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+[[file:oldschool.jpg]]
+#+REVEAL_HTML: </div>
+
+
+* What it can be
+#+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+- Version control
+- Automated distribution and collection
+- Communication and feedback
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+[[file:happyschool.jpg]]
+#+REVEAL_HTML: </div>
+
+* GitHub to the rescue
+- The good
+  - Version control goodness
+  - Industry standard tool
+  - Replaces locked in CMS functionality
+  - Gives us additional student insights
+  - great platform for ancillary things (open source, code reviews etc).
+- The bad
+  - learning curve
+  - scary 
+* 
+[[file:novacaine.jpg]]
+
+#+BEGIN_NOTES
+It's intimidating but if you do one thing at a time it's ok
+#+END_NOTES
+
+* Ease them in
+  - [[file:235.png]]
+#+BEGIN_NOTES
+Class web site
+#+END_NOTES
+** The steps
+- Get them on to GitHub
+- Set up SSH Keys
+- Important commands:
+
+#+BEGIN_SRC bash
+  git clone https://github.com/hunter-classes/235
+  cd 235
+  git pull   <-- each time
+  git checkout <-- (maybe)
+#+END_SRC
+#+BEGIN_NOTES
+Demo if possible
+
+Issues:
+- what if I edit the code?
+- What if I delete it
+
+#+END_NOTES
+* Their first Git based assignment
+#+BEGIN_EXPORT html
+<img height="400" src="firstassignment.jpg" alt="assignment">
+#+END_EXPORT
+* Concepts and commands
+#+BEGIN_SRC bash
+  git add filename
+  git commit filename -m "message"
+  git mv filename
+  git rm filename
+  git push
+  git checkout
+#+END_SRC
+
+
+#+BEGIN_NOTES
+Issues:
+
+#+END_NOTES
+* When codes collide
+
+file:collide.jpg
+
+#+BEGIN_NOTES
+Issues: Merge issues
+
+#+END_NOTES
+
+* Merging 
+#+BEGIN_SRC 
+Auto-merging a
+CONFLICT (content): Merge conflict in a
+Automatic merge failed; fix conflicts and then commit the result.
+#+END_SRC
+
+#+BEGIN_SRC 
+<<<<<<< HEAD
+echo "Hello World!"
+hello hello
+ worddddddddd
+=======
+echo "Hello World"
+>>>>>>> newbranch
+
+#+END_SRC
+* Grading and providing feedback
+#+ATTR_REVEAL: :frag (t)
+- Why not autograders?
+- What's better?
+** 
+- Test frameworks
+  | Language | Framework       |
+  |----------+-----------------|
+  | Python   | Unittest        |
+  | C++      | doctest / catch |
+** 
+file:issues.png
+
+* Other benefits
+** 
+file:contrib.png
+** 
+file:commits.png
+
+* Code with friends (pull requests)
+- Do a code review
+
+
+* Links
+- https://education.github.com/
+- https://classroom.github.com/classrooms
+- https://classroom.github.com/help

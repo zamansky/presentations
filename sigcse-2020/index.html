@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title><img src="github.png" alt="github.png" /></title>
+<meta name="author" content="(Mike Zamansky)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="../reveal-root/css/reveal.css"/>
+
+<link rel="stylesheet" href="../reveal-root/css/theme/serif.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = '../reveal-root/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+
+<section>
+<section id="slide-org077d4b8">
+<h2 id="org077d4b8"></h2>
+<img height="200" src="github.png">
+
+<style>
+
+#left {
+  left:-8.33%;
+  text-align: left;
+  float: left;
+  width:75%;
+  z-index:-10;
+}
+
+#right {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: right;
+  z-index:-10;
+  width:25%;
+}
+</style>
+
+<div id="left">
+
+<p>Taking Your Students from GitHub</p>
+<p>Newbies to Pull Request Masters</p>
+
+<p>Mike Zamansky @zamansky</p>
+<p>Nathaniel Woodthorpe</p>
+
+</div>
+<div id="right">  
+<img height="200" src="hunter2.jpg">
+</div>
+
+
+<aside class="notes">
+<p>
+schools that teach kids over 13 can apply
+</p>
+
+</aside>
+
+</section>
+</section>
+<section>
+<section id="slide-orgd6d98c9">
+<h2 id="orgd6d98c9">Why are we here?</h2>
+<ul>
+<li class="fragment">Sharing materials with students is hard</li>
+<li class="fragment">Project collection / grading / feedback is hard</li>
+<li class="fragment">Students should learn real world tools</li>
+<li class="fragment">learning Git on top of everything adds to cognitive load</li>
+<li class="fragment">but it's worth it!!!!!!!</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org1a57781">
+<h2 id="org1a57781">History of submitting work</h2>
+<div class="column" style="float:left; width: 50%">
+<ul>
+<li>blackboard / rexos</li>
+<li>printouts / floppys</li>
+
+</ul>
+</div>
+
+<div class="column" style="float:right; width: 50%">
+
+<div class="figure">
+<p><img src="oldschool.jpg" alt="oldschool.jpg" />
+</p>
+</div>
+</div>
+
+
+</section>
+</section>
+<section>
+<section id="slide-org6bfaf4b">
+<h2 id="org6bfaf4b">What it can be</h2>
+<div class="column" style="float:left; width: 50%">
+<ul>
+<li>Version control</li>
+<li>Automated distribution and collection</li>
+<li>Communication and feedback</li>
+
+</ul>
+</div>
+
+<div class="column" style="float:right; width: 50%">
+
+<div class="figure">
+<p><img src="happyschool.jpg" alt="happyschool.jpg" />
+</p>
+</div>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org75e779f">
+<h2 id="org75e779f">GitHub to the rescue</h2>
+<ul>
+<li>The good
+<ul>
+<li>Version control goodness</li>
+<li>Industry standard tool</li>
+<li>Replaces locked in CMS functionality</li>
+<li>Gives us additional student insights</li>
+<li>great platform for ancillary things (open source, code reviews etc).</li>
+
+</ul></li>
+<li>The bad
+<ul>
+<li>learning curve</li>
+<li>scary</li>
+
+</ul></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgbdf9b7c">
+<h2 id="orgbdf9b7c"></h2>
+
+<div class="figure">
+<p><img src="novacaine.jpg" alt="novacaine.jpg" />
+</p>
+</div>
+
+<aside class="notes">
+<p>
+It's intimidating but if you do one thing at a time it's ok
+</p>
+
+</aside>
+
+</section>
+</section>
+<section>
+<section id="slide-org44c52ad">
+<h2 id="org44c52ad">Ease them in</h2>
+<ul>
+<li><img src="235.png" alt="235.png" /></li>
+
+</ul>
+<aside class="notes">
+<p>
+Class web site
+</p>
+
+</aside>
+</section>
+<section id="slide-org0ae1c9b">
+<h3 id="org0ae1c9b">The steps</h3>
+<ul>
+<li>Get them on to GitHub</li>
+<li>Set up SSH Keys</li>
+<li>Important commands:</li>
+
+</ul>
+
+<div class="org-src-container">
+
+<pre  class="src src-bash"><code trim>git clone https://github.com/hunter-classes/235
+<span style="color: #795548;">cd</span> 235
+git pull   &lt;-- each time
+git checkout &lt;-- (maybe)
+</code></pre>
+</div>
+<aside class="notes">
+<p>
+Demo if possible
+</p>
+
+<p>
+Issues:
+</p>
+<ul>
+<li>what if I edit the code?</li>
+<li>What if I delete it</li>
+
+</ul>
+
+</aside>
+</section>
+</section>
+<section>
+<section id="slide-orgb32e70f">
+<h2 id="orgb32e70f">Their first Git based assignment</h2>
+<img height="400" src="firstassignment.jpg" alt="assignment">
+</section>
+</section>
+<section>
+<section id="slide-org468b2ea">
+<h2 id="org468b2ea">Concepts and commands</h2>
+<div class="org-src-container">
+
+<pre  class="src src-bash"><code trim>git add filename
+git commit filename -m <span style="color: #6C3082;">"message"</span>
+git mv filename
+git rm filename
+git push
+git checkout
+</code></pre>
+</div>
+
+
+<aside class="notes">
+<p>
+Issues:
+</p>
+
+</aside>
+</section>
+</section>
+<section>
+<section id="slide-org4e18104">
+<h2 id="org4e18104">When codes collide</h2>
+
+<div class="figure">
+<p><img src="collide.jpg" alt="collide.jpg" />
+</p>
+</div>
+
+<aside class="notes">
+<p>
+Issues: Merge issues
+</p>
+
+</aside>
+
+</section>
+</section>
+<section>
+<section id="slide-org9504760">
+<h2 id="org9504760">Merging</h2>
+<pre  class="example">
+Auto-merging a
+CONFLICT (content): Merge conflict in a
+Automatic merge failed; fix conflicts and then commit the result.
+</pre>
+
+<pre  class="example">
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+echo "Hello World!"
+hello hello
+ worddddddddd
+=======
+echo "Hello World"
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; newbranch
+
+</pre>
+</section>
+</section>
+<section>
+<section id="slide-org319d325">
+<h2 id="org319d325">Grading and providing feedback</h2>
+<ul>
+<li class="fragment">Why not autograders?</li>
+<li class="fragment">What's better?</li>
+
+</ul>
+</section>
+<section id="slide-orgb0c1ff5">
+<h3 id="orgb0c1ff5"></h3>
+<ul>
+<li><p>
+Test frameworks
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Language</th>
+<th scope="col" class="org-left">Framework</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Python</td>
+<td class="org-left">Unittest</td>
+</tr>
+
+<tr>
+<td class="org-left">C++</td>
+<td class="org-left">doctest / catch</td>
+</tr>
+</tbody>
+</table></li>
+
+</ul>
+</section>
+<section id="slide-orge0943d5">
+<h3 id="orge0943d5"></h3>
+
+<div class="figure">
+<p><img src="issues.png" alt="issues.png" />
+</p>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-orgc6e1c76">
+<h2 id="orgc6e1c76">Other benefits</h2>
+<div class="outline-text-2" id="text-orgc6e1c76">
+</div>
+</section>
+<section id="slide-org36bedf5">
+<h3 id="org36bedf5"></h3>
+
+<div class="figure">
+<p><img src="contrib.png" alt="contrib.png" />
+</p>
+</div>
+</section>
+<section id="slide-org0fbb7c6">
+<h3 id="org0fbb7c6"></h3>
+
+<div class="figure">
+<p><img src="commits.png" alt="commits.png" />
+</p>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org3138e6e">
+<h2 id="org3138e6e">Code with friends (pull requests)</h2>
+<ul>
+<li>Do a code review</li>
+
+</ul>
+
+
+</section>
+</section>
+<section>
+<section id="slide-orgcf67034">
+<h2 id="orgcf67034">Links</h2>
+<ul>
+<li><a href="https://education.github.com/">https://education.github.com/</a></li>
+<li><a href="https://classroom.github.com/classrooms">https://classroom.github.com/classrooms</a></li>
+<li><a href="https://classroom.github.com/help">https://classroom.github.com/help</a></li>
+
+</ul>
+</section>
+</section>
+</div>
+</div>
+<script src="../reveal-root/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: '../reveal-root/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: '../reveal-root/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: '../reveal-root/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: '../reveal-root/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: '../reveal-root/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>
