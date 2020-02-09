@@ -143,6 +143,15 @@ Issues:
 Issues:
 
 #+END_NOTES
+* RTFM
+#+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+[[file:xkcd.png]]
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+[[file:rtfm.png]]
+#+REVEAL_HTML: </div>
+
 * When codes collide
 
 file:collide.jpg
