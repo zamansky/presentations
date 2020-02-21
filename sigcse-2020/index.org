@@ -189,7 +189,24 @@ echo "Hello World"
   | Python   | Unittest        |
   | C++      | doctest / catch |
 ** 
+
+
+#+REVEAL_HTML: <div class="column" style="float:left; width: 40%">
+[[file:tests.png]]
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float:right; width: 40%">
+#+ATTR_REVEAL: :frag (t)
+- Give them tests or add later?
+- Student created or teacher created?
+- Continuous Integration?
+#+REVEAL_HTML: </div>
+** Feedback and communication
+
+#+REVEAL_HTML: <div style="height:30%;">
 file:issues.png
+#+REVEAL_HTML: </div>
+** Autograding
 
 * Other benefits
 ** 
