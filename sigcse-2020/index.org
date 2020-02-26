@@ -7,7 +7,6 @@
 #+EMAIL: Email: mz631@hunter.cuny.edu<br>Twitter: @zamansky
 #+OPTIONS: reveal_title_slide:nil
 
-
 * 
 #+BEGIN_EXPORT html
 <img height="200" src="github.png">
@@ -101,7 +100,7 @@ It's intimidating but if you do one thing at a time it's ok
 #+END_NOTES
 
 * Ease them in
-  - [[file:235.png]]
+[[file:235.png]]
 #+BEGIN_NOTES
 Class web site
 #+END_NOTES
