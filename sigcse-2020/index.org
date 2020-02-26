@@ -237,17 +237,17 @@ echo "Hello World"
 * Other benefits
 ** Issues 
 #+BEGIN_EXPORT html
-<img height="500" width="600px" src="issues.png" alt="assignment">
+<img height="400" src="issues.png" alt="assignment">
 #+END_EXPORT
 
 ** Stats and Graphs
 #+BEGIN_EXPORT html
-<img height="500" width="600px" src="contrib.png" alt="assignment">
+<img height="400"  src="contrib.png" alt="assignment">
 #+END_EXPORT
 
 ** Commit History
 #+BEGIN_EXPORT html
-<img height="500" width="600px" src="commits.png" alt="assignment">
+<img height="400" src="commits.png" alt="assignment">
 #+END_EXPORT
 
 
