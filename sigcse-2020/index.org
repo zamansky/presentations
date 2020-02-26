@@ -237,14 +237,18 @@ echo "Hello World"
 * Other benefits
 ** Issues 
 #+REVEAL_HTML: <div style="height:30%;">
+#+REVEAL_HTML: <div style="height:30%;">
 file:issues.png
 #+REVEAL_HTML: </div>
 
 ** Stats and Graphs
+#+REVEAL_HTML: <div style="height:30%;">
 file:contrib.png
+#+REVEAL_HTML: </div>
 ** Commit History
+#+REVEAL_HTML: <div style="height:30%;">
 file:commits.png
-
+#+REVEAL_HTML: </div>
 * Code with friends (pull requests)
 - Do a code review
 
