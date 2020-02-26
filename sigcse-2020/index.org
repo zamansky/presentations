@@ -236,18 +236,20 @@ echo "Hello World"
 
 * Other benefits
 ** Issues 
-#+REVEAL_HTML: <div style="height:30%;">
-file:issues.png
-#+REVEAL_HTML: </div>
+#+BEGIN_EXPORT html
+<img height="500" width="600px" src="issues.png" alt="assignment">
+#+END_EXPORT
 
 ** Stats and Graphs
-#+REVEAL_HTML: <div style="height:30%;">
-file:contrib.png
-#+REVEAL_HTML: </div>
+#+BEGIN_EXPORT html
+<img height="500" width="600px" src="contrib.png" alt="assignment">
+#+END_EXPORT
+
 ** Commit History
-#+REVEAL_HTML: <div style="height:30%;">
-file:commits.png
-#+REVEAL_HTML: </div>
+#+BEGIN_EXPORT html
+<img height="500" width="600px" src="commits.png" alt="assignment">
+#+END_EXPORT
+
 
 * Code with friends (pull requests)
 - Do a code review
