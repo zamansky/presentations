@@ -39,7 +39,6 @@
 <p>Newbies to Pull Request Masters</p>
 
 <p>Mike Zamansky @zamansky</p>
-<p>Nathaniel Woodthorpe @njwoodthorpe</p>
 
 </div>
 <div id="right">  
