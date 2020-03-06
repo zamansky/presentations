@@ -3,6 +3,7 @@
 #+OPTIONS: toc:nil num:nil date:nil email:t  reveal_title_slide:nil
 
 * Active presentations
-- [[./navigating-hs-to-college-in-tech/index.html][Navigating High School to College in Tech]]
+- [[./sigcse-2020/index.html][SIGCSE-2020]]
+- [[./navigating-hs-to-college-in-tech/index.html][Navigating High School to College in Tech]]R
 - [[./ct/index.html][Computational Thinking]]
  
