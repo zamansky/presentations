@@ -287,8 +287,9 @@ These are autograding test reports
 #+END_EXPORT
 
 
-* Code with friends (pull requests)
+* Code with friends
 - Do a code review
+- Pull requests
 
 #+BEGIN_NOTES
 - Pair programming is real time code review
@@ -297,7 +298,9 @@ These are autograding test reports
 
 #+END_NOTES
 
-* Links
-- https://education.github.com/
-- https://classroom.github.com/classrooms
-- https://classroom.github.com/help
+* To learn more
+- CSTA 2020 workshop
+- Links
+  - https://education.github.com/
+  - https://classroom.github.com/classrooms
+  - https://classroom.github.com/help
