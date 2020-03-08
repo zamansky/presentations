@@ -204,6 +204,11 @@ echo "Hello World"
 #+ATTR_REVEAL: :frag (t)
 - Why not autograders?
 - What's better?
+#+begin_notes
+- must look at work (like essay autograders)
+- good for short stuff (coding bat) 
+- good for student confirmation and y/n feedback
+#+end_notes
 ** 
 - Test frameworks
   | Language | Framework       |
