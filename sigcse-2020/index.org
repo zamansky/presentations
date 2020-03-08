@@ -49,7 +49,7 @@
 
 
 #+BEGIN_NOTES
-schools that teach kids over 13 can apply
+schools that teach kids over 13 can apply to GitHub Ed
 #+END_NOTES
 
 * Why are we here?
@@ -59,6 +59,13 @@ schools that teach kids over 13 can apply
 - Students should learn real world tools
 - learning Git on top of everything adds to cognitive load
 - but it's worth it!!!!!!!
+
+#+begin_notes
+- We will learn the process I use to teach
+- can be used in a semester or over years
+- pragmatic approach
+#+end_notes
+
 * History of submitting work
 #+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
 - blackboard / rexos
@@ -69,6 +76,9 @@ schools that teach kids over 13 can apply
 [[file:oldschool.jpg]]
 #+REVEAL_HTML: </div>
 
+#+begin_notes
+Maybe tell history HW submission story
+#+end_notes
 
 * What it can be
 #+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
@@ -95,8 +105,10 @@ schools that teach kids over 13 can apply
 [[file:novacaine.jpg]]
 
 #+BEGIN_NOTES
-It's intimidating but if you do one thing at a time it's ok
+- It's intimidating but if you do one thing at a time it's ok
+- lead them into situations to learn the next thing
 #+END_NOTES
+
 
 * Ease them in
 [[file:235.png]]
@@ -126,6 +138,11 @@ Issues:
 #+BEGIN_EXPORT html
 <img height="500" width="600px" src="firstassignment.jpg" alt="assignment">
 #+END_EXPORT
+
+#+begin_notes
+- show classroom or demo at end if time
+#+end_notes
+
 * Concepts and commands
 #+BEGIN_SRC bash
   git add filename
@@ -138,7 +155,7 @@ Issues:
 
 
 #+BEGIN_NOTES
-Issues:
+Issues: they won't read the error messages
 
 #+END_NOTES
 * RTFM
@@ -155,8 +172,7 @@ Issues:
 file:collide.jpg
 
 #+BEGIN_NOTES
-Issues: Merge issues
-
+Issues: eventually you'll get merge issues
 #+END_NOTES
 
 * Merging 
@@ -176,6 +192,14 @@ echo "Hello World"
 >>>>>>> newbranch
 
 #+END_SRC
+
+#+begin_notes
+- Show how to create a merge situation 
+- setup-merge
+- git merge newbranch
+- YOU DON'T NEED TO KNOW THIS NOW
+#+end_notes
+
 * Grading and providing feedback
 #+ATTR_REVEAL: :frag (t)
 - Why not autograders?
@@ -209,13 +233,19 @@ echo "Hello World"
   - Students become more introspective about their code
   - Students learn real world software engineering sensibilities
 ** The road to CI
-- GitHub Classroom Autograding
+- GitHub Classroom Autograding beta
 #+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
 [[file:tests-workflows.png]]
 #+REVEAL_HTML: </div>
 #+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
 [[file:tests-setup.png]]
 #+REVEAL_HTML: </div>
+#+begin_notes
+- in beta
+- io test / run command / regex / match / included
+- really CI
+
+#+end_notes
 * Student and instructor feedback
 #+REVEAL_HTML: <div class="column" style="float:left; width: 33%">
 [[file:testworks-overview.png]]
@@ -226,7 +256,9 @@ echo "Hello World"
 #+REVEAL_HTML: <div class="column" style="float:left; width: 33%">
 [[file:testworks-details.png]]
 #+REVEAL_HTML: </div>
-
+#+begin_notes
+These are autograding test reports
+#+end_notes
 * It's just GitHub!!!
 #+BEGIN_EXPORT html
 <img height="500" width="600px" src="workflows.png" alt="assignment">
@@ -256,7 +288,7 @@ echo "Hello World"
 #+BEGIN_NOTES
 - Pair programming is real time code review
 - Students learn to work on other code bases
-
+- Talk about the assignments I use
 
 #+END_NOTES
 
