@@ -4,6 +4,6 @@
 
 * Active presentations
 - [[./sigcse-2020/index.html][SIGCSE-2020]]
-- [[./navigating-hs-to-college-in-tech/index.html][Navigating High School to College in Tech]]R
+- [[./navigating-hs-to-college-in-tech/index.html][Navigating High School to College in Tech]]
 - [[./ct/index.html][Computational Thinking]]
  
