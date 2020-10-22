@@ -27,9 +27,9 @@
 - Why consider NY?
 - Why consider NY for tech?
 #+begin_notes
-1 - big school - offerings - Michigan
-2 - small school intemate -- Oberlin
-3 - rural - about school, urban about city
+1. big school - offerings - Michigan
+2. small school intemate -- Oberlin
+3. rural - about school, urban about city
 #+end_notes
 
 * Tech Education
