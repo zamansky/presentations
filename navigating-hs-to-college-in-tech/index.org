@@ -47,6 +47,127 @@
 * CS Educations Dirty Secret
 #+ATTR_REVEAL: :frag (t)
 - CS is CS is CS
+* A comparison
+#+begin_export html
+<small>
+<style>
+	.demo {
+		border:1px solid #C0C0C0;
+		border-collapse:collapse;
+		padding:5px;
+	}
+	.demo th {
+		border:1px solid #C0C0C0;
+		padding:5px;
+		background:#F0F0F0;
+	}
+	.demo td {
+		border:1px solid #C0C0C0;
+		padding:5px;
+	}
+</style>
+<table class="demo">
+	<caption>Table 1</caption>
+	<thead>
+	<tr>
+		<th>Course</th>
+		<th>Columbia</th>
+		<th>NYU</th>
+		<th>Hunter</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>&nbsp;CS1</td>
+		<td>&nbsp;X</td>
+		<td>&nbsp;X</td>
+		<td>&nbsp;X</td>
+	</tr>
+	<tr>
+		<td>&nbsp;Data Structures<br></td>
+		<td>&nbsp;X</td>
+		<td>&nbsp;X</td>
+		<td>&nbsp;X</td>
+	</tr>
+	<tr>
+		<td>&nbsp;Algorithms<br></td>
+		<td>&nbsp;X</td>
+		<td>&nbsp;X</td>
+		<td>&nbsp;X</td>
+	</tr>
+	<tr>
+		<td>&nbsp;Discrete</td>
+		<td>&nbsp;X</td>
+		<td>&nbsp;X</td>
+		<td>&nbsp;X</td>
+	</tr>
+	<tr>
+		<td>&nbsp;Linear</td>
+		<td>&nbsp;or stat<br></td>
+		<td>&nbsp;X</td>
+		<td>&nbsp;X</td>
+	</tr>
+	<tr>
+		<td>&nbsp;Calc</td>
+		<td>&nbsp;X</td>
+		<td>&nbsp;X</td>
+		<td>&nbsp;X</td>
+	</tr>
+	<tr>
+		<td>&nbsp;Stat</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;X</td>
+	</tr>
+	<tr>
+		<td>&nbsp;Theory</td>
+		<td>&nbsp;X</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;X</td>
+	</tr>
+	<tr>
+		<td>&nbsp;Systems</td>
+		<td>&nbsp;X</td>
+		<td>&nbsp;X</td>
+		<td>&nbsp;X</td>
+	</tr>
+	<tr>
+		<td>&nbsp;Arch</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;X</td>
+	</tr>
+	<tr>
+		<td>&nbsp;OS</td>
+		<td>&nbsp;X</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;X</td>
+	</tr>
+	<tr>
+		<td>&nbsp;Electives</td>
+		<td>&nbsp;X</td>
+		<td>&nbsp;X</td>
+		<td>X <br></td>
+	</tr>
+	<tr>
+		<td>&nbsp;Misc</td>
+		<td>&nbsp;Tracks</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;Capstone</td>
+	</tr>
+	</tr>
+	<tbody>
+
+</table>
+</small>
+#+end_export
+
+#+BEGIN_NOTES
+- https://www.cs.cmu.edu/~mjs/121/
+- http://www.compsci.hunter.cuny.edu/~sweiss/course_materials/csci235/csci235fall17_schedule.pdf
+
+#+END_NOTES
+
 * It's about culture and fit
 #+begin_notes
 - Natan and Michigan
