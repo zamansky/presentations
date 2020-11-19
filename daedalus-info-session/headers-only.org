@@ -1,0 +1,23 @@
+#+REVEAL_THEME: serif
+#+OPTIONS: toc:nil num:nil date:nil email:t 
+#+OPTIONS: reveal_title_slide:"<h3>%t</h3><br><h3>%a<br>mz631@hunter.cuny.edu</h3><p><h3>@zamansky</h3><h3>cestlaz.github.io</h3>"
+
+* Who am I
+* Choosing a college
+* It's not just about the school
+* Things to consider
+- Urban vs Rural
+- Community
+- Big vs Small
+- Why consider NY for tech?
+* Tech Education
+- BA vs BS
+* Tech Education in NY - expensive
+* CS Educations Dirty Secret
+* It's about culture and fit
+* Hunter Highlights
+* Hunter CS Highlights
+* Hunter CS Community
+* CUNY2X
+* Daedalus Highlights
+* - http://info.huntercs.org
