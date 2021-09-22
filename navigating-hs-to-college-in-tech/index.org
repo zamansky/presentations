@@ -184,6 +184,7 @@
 - One of the country's best value colleges
 * Hunter CS Highlights
 - Comprehensive CS Curriculum
+- Fast Growing
 - Active Community (ACM, WiC, Programming Team)
 - Internships / Partnerships office
 
