@@ -163,11 +163,16 @@
 #+end_export
 
 #+BEGIN_NOTES
+- [[./cmu-ds.pdf][cmu-ds]]
 - https://www.cs.cmu.edu/~mjs/121/
 - http://www.compsci.hunter.cuny.edu/~sweiss/course_materials/csci235/csci235fall17_schedule.pdf
 
 #+END_NOTES
 
+* More comparison
+
+- [[./cmu-ds.pdf][Data Structures at CMU]]
+- [[./hunter-ds.pdf][Data Structures at Hunter]]
 * It's about culture and fit
 #+begin_notes
 - Natan and Michigan
