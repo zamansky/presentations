@@ -1,0 +1,82 @@
+#+REVEAL_ROOT: ../reveal-root
+#+REVEAL_THEME: serif
+#+OPTIONS: toc:nil num:nil date:nil email:t 
+#+OPTIONS: reveal_title_slide:"<h3>%t</h3><br><h3>%a<br>mz631@hunter.cuny.edu</h3><p><h3>@zamansky</h3><h3>cestlaz.github.io</h3>"
+#+TITLE:  Advanced Certificate in Teaching CS
+#+AUTHOR: Mike Zamansky
+#+EMAIL: Email: mz631@hunter.cuny.edu<br>Twitter: @zamansky
+
+* Who am I
+
+* CS in New York
+** City
+- CS4All
+- K12 offerings
+- Other programs also running 
+** State
+- New Certification
+- Standards fully implemented  by Fall 2024
+- What the state expects
+#+BEGIN_NOTES
+- Middle and HS by CS teachers, elementary grades maybe not
+- why not wait for individual assessment or state to force?
+- Talk about Allen Mellon at Seward
+- Talk about the importance of getting certified
+#+END_NOTES
+
+* State Certification Overview
+** Types
+- Bachelors
+- Masters (HUNTER)
+- Advanced Certificate (HUNTER)
+** State Specifics
+- K12 Certification
+- Must complete an approved program
+- Must include 12 CS Credits
+- Field work
+- Content Exam when available. 
+
+* Hunter Program Overview
+** Classes
+- 18 credits
+- 12 CS credits in 4 classes
+  - Programming
+  - Data Structures
+  - Topics
+  - Ethics
+- 6 CS Ed credits
+  - Methods
+  - Curriculum Development (with fieldwork)
+** Timeline
+- Summer:
+  - Programming, Data Structures, Methods
+- Fall:
+  - CurrDev, Ethics
+- Spring:
+  - Topics
+
+#+BEGIN_NOTES
+Talk about chances of staying online
+Talk about shift to school year classes
+#+END_NOTES
+
+* Hunter Program Requirements
+- Masters degree
+- State Certification in any area
+- Some programming experience in a text bsed language
+* Workshops and prework
+- Free CTLE Workshops will be offered to get you up to speed
+- Prework will be required before the start of the program
+- Prework will be available by the start of the new year
+  
+* Financial Support and Community Commitments
+- Funded by Gotham Gives and Google
+- NYC Teachers with anb emphasis on CS4All
+  
+* For more information
+- http://info.huntercs.org/teacher_ed/summer-2022.html
+* Fin
+- Mike Zamansky
+- mz631@hunter.cuny.edu
+- @zamansky
+- cestlaz.github.io
