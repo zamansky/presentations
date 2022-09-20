@@ -9,7 +9,7 @@
 * Introductions
 - Mike Zamansky
 - Stephania Kabanakis
-- Victoria Miller
+- Victoria Berkowitz
 - Eric Wilson
 - Jessica Du
 * Options and Pathways
