@@ -6,13 +6,16 @@
 #+AUTHOR: Mike Zamansky
 #+EMAIL: Email: zamansky@gmail.com<br>Twitter: @zamansky
 
+https://zamansky.github.io/presentations/csfornyc-2022/
+
+
 * Introductions
 - Mike Zamansky
 - Stephania Kabanakis
 - Victoria Miller
 - Eric Wilson
 - Jessica Du
-* Options and Pathways
+* Options and Pathwaysx
 - SOCE
 - Individual Evaluation
 - Certification
@@ -28,12 +31,11 @@ which is right for you?
 * Why was getting certified important for you?
 
 
-* What makes a good program
-* What makes a bad program
-* Why good program is important even with SOCE
-
-* About those 12 credits 
-- must be in an approved program
+* What to look for in a program
+- What's a bad program
+- What's a good program
+- What about those 12 CS credits
+- But I can just get the SOCE
   
 * Programs and Certification Requirements
 - List of programs: http://www.nysed.gov/heds/IRPSL1.html
