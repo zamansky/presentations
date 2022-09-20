@@ -20,7 +20,7 @@
 which is right for you? 
 #+END_NOTES
 
-* Pathways
+* Types of programs
 - Undergrad
 - Masters
 - Advanced Certificate (for already certified teachers)
