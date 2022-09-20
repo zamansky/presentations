@@ -6,9 +6,6 @@
 #+AUTHOR: Mike Zamansky
 #+EMAIL: Email: zamansky@gmail.com<br>Twitter: @zamansky
 
-https://zamansky.github.io/presentations/csfornyc-2022/
-
-
 * Introductions
 - Mike Zamansky
 - Stephania Kabanakis
