@@ -33,7 +33,11 @@ which is right for you?
 - What's a good program
 - What about those 12 CS credits
 - But I can just get the SOCE
-  
+* Hunter's program
+- By teachers for teachers
+- Not tied to a specific curriculum
+- Breadth,  depth, ethics, pedagogy, and curriculum 
+- Focus on building a network on teachers
 * Programs and Certification Requirements
 - List of programs: http://www.nysed.gov/heds/IRPSL1.html
 - Certification Requirements:
