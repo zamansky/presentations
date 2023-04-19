@@ -1,10 +1,10 @@
 #+REVEAL_ROOT: ../reveal-root
 #+REVEAL_THEME: serif
 #+OPTIONS: toc:nil num:nil date:nil email:t 
-#+OPTIONS: reveal_title_slide:"<h3>%t</h3><br><h3>%a<br>mz631@hunter.cuny.edu</h3><p><h3>@zamansky</h3><h3>cestlaz.github.io</h3>"
+#+OPTIONS: reveal_title_slide:"<h3>%t</h3><br><h3>%a<br>mz631@hunter.cuny.edu</h3>"
 #+TITLE:  Daedalus Info Session
 #+AUTHOR: Mike Zamansky
-#+EMAIL: Email: mz631@hunter.cuny.edu<br>Twitter: @zamansky
+#+EMAIL: Email: mz631@hunter.cuny.edu
 
 
 * Who am I
