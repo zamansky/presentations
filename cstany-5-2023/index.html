@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Reflections on CS Ed by an old curmudgeon</title>
+<meta name="author" content="Mike Zamansky"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="../reveal-root/css/reveal.css"/>
+
+<link rel="stylesheet" href="../reveal-root/css/theme/serif.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = '../reveal-root/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h3>Reflections on CS Ed by an old curmudgeon</h3><br><h3>Mike Zamansky<br>zamansky@gmail.com</h3><p><h3>@zamansky</h3><h3>cestlaz.github.io</h3>
+</section>
+
+<section>
+<section id="slide-orged35487">
+<h2 id="orged35487">Hi</h2>
+<ul>
+<li class="fragment">NYC Public School Product K-12</li>
+<li class="fragment">Goldman Sachs - rogrammer Analyst</li>
+<li class="fragment">Seward Park / Stuyvesant</li>
+<li class="fragment">Hunter</li>
+
+</ul>
+<aside class="notes">
+<p>
+which is right for you? 
+</p>
+
+</aside>
+
+</section>
+</section>
+<section>
+<section id="slide-orgb610dc5">
+<h2 id="orgb610dc5">The Stone Age - 80s</h2>
+
+<style>
+
+#left {
+  left:-8.33%;
+  text-align: left;
+  float: left;
+  width:75%;
+  z-index:-10;
+}
+
+#right {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: right;
+  z-index:-10;
+  width:25%;
+}
+</style>
+
+<div id="left">
+<ul>
+<li> 1980s
+<li> Hobbyists teaching
+<li> Electives only
+<li> APCS (AB) in 1984
+</ul>
+
+
+</div>
+
+<div id="right">  
+<img height="200" src="ibm-1130.jpeg">
+<img height="200" src="punch-card.jpg">
+
+</div>
+<aside class="notes">
+<ul>
+<li>talk about punch cards and jcl</li>
+<li>students had to opt in and also knew more</li>
+
+</ul>
+
+</aside>
+
+</section>
+</section>
+<section>
+<section id="slide-org0b4d385">
+<h2 id="org0b4d385">The Bronze Age</h2>
+<img height="200" src="book-cover.jpg">
+<ul>
+<li>CS as remedial math</li>
+<li>still some CS by hobbyists</li>
+<li>APCS split into A and AB</li>
+
+</ul>
+<aside class="notes">
+<ul>
+<li>Early 90s</li>
+
+</ul>
+
+</aside>
+
+</section>
+</section>
+<section>
+<section id="slide-org8446ba2">
+<h2 id="org8446ba2">The Dark Ages</h2>
+<img height="150" src="same.jpeg">
+<ul>
+<li>A few pockets of excellence</li>
+<li>DOE not interested</li>
+
+</ul>
+<aside class="notes">
+<ul>
+<li>mid 90s - mid 2000s</li>
+
+</ul>
+
+</aside>
+
+</section>
+</section>
+<section>
+<section id="slide-orgef37262">
+<h2 id="orgef37262">The Renaissance</h2>
+<div class="column" style="float:left; width: 50%">
+
+<div id="org7c5c92c" class="figure">
+<p><img src="avc1.png" alt="avc1.png" />
+</p>
+</div>
+</div>
+
+<div class="column" style="float:right; width: 50%">
+
+<div id="orga6ee7c6" class="figure">
+<p><img src="avc2.png" alt="avc2.png" />
+</p>
+</div>
+</div>
+
+
+<aside class="notes">
+<ul>
+<li>2010s</li>
+<li>tech industry gets involved</li>
+<li>proposed a school - went nowhere</li>
+<li>FW proposed a school - AFSE</li>
+
+</ul>
+
+</aside>
+
+</section>
+</section>
+<section>
+<section id="slide-org8cb7b9a">
+<h2 id="org8cb7b9a">Today</h2>
+<ul>
+<li>CS4All</li>
+<li>CSforNY</li>
+<li>DOE training</li>
+
+</ul>
+<aside class="notes">
+nil
+</aside>
+</section>
+</section>
+<section>
+<section id="slide-org1888612">
+<h2 id="org1888612">The Future</h2>
+<aside class="notes">
+<ul>
+<li>no teachers have too much control
+<ul>
+<li>code.org, college board, canned curricula</li>
+
+</ul></li>
+
+</ul>
+
+</aside>
+</section>
+</section>
+</div>
+</div>
+<script src="../reveal-root/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+showNotes:"separate-page",
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: '../reveal-root/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: '../reveal-root/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: '../reveal-root/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: '../reveal-root/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});
+
+</script>
+</body>
+</html>

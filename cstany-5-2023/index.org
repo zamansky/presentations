@@ -1,0 +1,116 @@
+#+REVEAL_ROOT: ../reveal-root
+#+REVEAL_THEME: serif
+#+REVEAL_INIT_OPTIONS:  showNotes:"separate-page"
+#+OPTIONS: toc:nil num:nil date:nil email:t 
+#+OPTIONS: reveal_title_slide:"<h3>%t</h3><br><h3>%a<br>zamansky@gmail.com</h3><p><h3>@zamansky</h3><h3>cestlaz.github.io</h3>"
+#+TITLE:  Reflections on CS Ed by an old curmudgeon
+#+AUTHOR: Mike Zamansky
+#+EMAIL: Email: zamansky@gmail.com<br>Twitter: @zamansky
+
+* Hi
+#+ATTR_REVEAL: :frag (t)
+- NYC Public School Product K-12 
+- Goldman Sachs - rogrammer Analyst
+- Seward Park / Stuyvesant
+- Hunter
+#+BEGIN_NOTES
+which is right for you? 
+#+END_NOTES
+
+* The Stone Age - 80s
+#+BEGIN_EXPORT html
+
+<style>
+
+#left {
+  left:-8.33%;
+  text-align: left;
+  float: left;
+  width:75%;
+  z-index:-10;
+}
+
+#right {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: right;
+  z-index:-10;
+  width:25%;
+}
+</style>
+
+<div id="left">
+<ul>
+<li> 1980s
+<li> Hobbyists teaching
+<li> Electives only
+<li> APCS (AB) in 1984
+</ul>
+
+
+</div>
+
+<div id="right">  
+<img height="200" src="ibm-1130.jpeg">
+<img height="200" src="punch-card.jpg">
+
+</div>
+
+#+END_EXPORT
+#+BEGIN_NOTES
+- talk about punch cards and jcl
+- students had to opt in and also knew more 
+#+END_NOTES
+
+* The Bronze Age
+#+begin_export html
+<img height="200" src="book-cover.jpg">
+#+end_export
+- CS as remedial math
+- still some CS by hobbyists
+- APCS split into A and AB
+#+BEGIN_NOTES
+- Early 90s
+#+END_NOTES
+
+* The Dark Ages
+#+begin_export html
+<img height="150" src="same.jpeg">
+#+end_export
+- A few pockets of excellence
+- DOE not interested
+#+BEGIN_NOTES
+- mid 90s - mid 2000s
+#+END_NOTES
+   
+* The Renaissance
+#+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+[[file:avc1.png]]
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+[[file:avc2.png]]
+#+REVEAL_HTML: </div>
+
+
+#+BEGIN_NOTES
+- 2010s
+- tech industry gets involved
+- proposed a school - went nowhere
+- FW proposed a school - AFSE
+  
+#+END_NOTES
+
+* Today
+- CS4All 
+- CSforNY
+- DOE training
+#+BEGIN_NOTES
+#+END_NOTES
+* The Future
+#+BEGIN_NOTES
+- no teachers have too much control
+  - code.org, college board, canned curricula
+#+END_NOTES
+  
