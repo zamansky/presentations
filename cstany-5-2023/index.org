@@ -1,6 +1,5 @@
 #+REVEAL_ROOT: ../reveal-root
 #+REVEAL_THEME: serif
-#+REVEAL_INIT_OPTIONS:  showNotes:"separate-page"
 #+OPTIONS: toc:nil num:nil date:nil email:t 
 #+OPTIONS: reveal_title_slide:"<h3>%t</h3><br><h3>%a<br>zamansky@gmail.com</h3><p><h3>@zamansky</h3><h3>cestlaz.github.io</h3>"
 #+TITLE:  CS Ed in NYC
@@ -15,7 +14,8 @@
 - Hunter
 #+BEGIN_NOTES
 - not a software engineer
-which is right for you? 
+- big public school guy
+- talk about K12 CS in NYC
 #+END_NOTES
 
 * The Stone Age - 80s
@@ -46,6 +46,7 @@ which is right for you?
 <li> 1980s
 <li> Hobbyists teaching
 <li> Electives only
+<li> Very few classes 
 <li> APCS (AB) in 1984
 </ul>
 
@@ -62,7 +63,7 @@ which is right for you?
 #+BEGIN_NOTES
 - talk about punch cards and jcl
 - students had to opt in and also knew more
-- VERY few classes let alone programs
+- closed club
 #+END_NOTES
 
 * The Bronze Age
@@ -74,17 +75,21 @@ which is right for you?
 - APCS split into A and AB
 #+BEGIN_NOTES
 - Early 90s
-- computer labs more prevalent in schools   
+- computer labs more prevalent in schools
+- end of APCS-AB (low APCS scores overall)
+- DOE not interested   
 #+END_NOTES
 
 * The Dark Ages
 #+begin_export html
 <img height="150" src="same.jpeg">
 #+end_export
-- A few pockets of excellence
+- A few pockets of excellence (nationwide)
 - DOE not interested
 #+BEGIN_NOTES
 - mid 90s - mid 2000s
+- few cohesive programs but some stuff in special schools
+- Stu Feldman's prediction / comment 
 #+END_NOTES
    
 * The Renaissance
@@ -102,18 +107,31 @@ which is right for you?
 - tech industry gets involved
 - proposed a school - went nowhere
 - FW proposed a school - AFSE
-  
+- Bloomberg tech influence but bad overall for education
+- Second school
+- BdB had to one up Bloomberg with CS for al    
 #+END_NOTES
 
 * Today
 - CS4All 
 - CSforNY
 - DOE training
+- Code.org, College Board, Ed Tech explosion  
 #+BEGIN_NOTES
+- can go like all other ed or can make a difference
 #+END_NOTES
 * The Future
+- We must pay attention to Ed not just CS Ed
+- Why PD based is bad (vs pre and in service classes)
+- Flavor of the month learning (Coding->Cybersecurity->AI)
+- CS Integration to other fields
+- Teachers need a bigger voice
 #+BEGIN_NOTES
-- no teachers have too much control
-  - code.org, college board, canned curricula
+- cert programs not created equally (no child left behind)
+- Companies and power players  have too much control
+- seek out CS Teacher communities
+- push back against standards and canned curricula
+- Compare to math educators   
+  
 #+END_NOTES
   
