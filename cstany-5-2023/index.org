@@ -3,17 +3,18 @@
 #+REVEAL_INIT_OPTIONS:  showNotes:"separate-page"
 #+OPTIONS: toc:nil num:nil date:nil email:t 
 #+OPTIONS: reveal_title_slide:"<h3>%t</h3><br><h3>%a<br>zamansky@gmail.com</h3><p><h3>@zamansky</h3><h3>cestlaz.github.io</h3>"
-#+TITLE:  Reflections on CS Ed by an old curmudgeon
+#+TITLE:  CS Ed in NYC
 #+AUTHOR: Mike Zamansky
 #+EMAIL: Email: zamansky@gmail.com<br>Twitter: @zamansky
 
 * Hi
 #+ATTR_REVEAL: :frag (t)
 - NYC Public School Product K-12 
-- Goldman Sachs - rogrammer Analyst
+- Goldman Sachs
 - Seward Park / Stuyvesant
 - Hunter
 #+BEGIN_NOTES
+- not a software engineer
 which is right for you? 
 #+END_NOTES
 
@@ -60,7 +61,8 @@ which is right for you?
 #+END_EXPORT
 #+BEGIN_NOTES
 - talk about punch cards and jcl
-- students had to opt in and also knew more 
+- students had to opt in and also knew more
+- VERY few classes let alone programs
 #+END_NOTES
 
 * The Bronze Age
@@ -68,10 +70,11 @@ which is right for you?
 <img height="200" src="book-cover.jpg">
 #+end_export
 - CS as remedial math
-- still some CS by hobbyists
+- Some CS by hobbyists
 - APCS split into A and AB
 #+BEGIN_NOTES
 - Early 90s
+- computer labs more prevalent in schools   
 #+END_NOTES
 
 * The Dark Ages
