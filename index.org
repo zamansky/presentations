@@ -3,6 +3,6 @@
 #+OPTIONS: toc:nil num:nil date:nil email:t  reveal_title_slide:nil
 
 * Active presentations
-- [[./cstany-5-2023/index.html][SIGCSE-2020]]
+- [[./cstany-5-2023/index.html][CSTA NYC 5/25/2023]]
 
  
