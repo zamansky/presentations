@@ -88,6 +88,9 @@
 - DOE not interested
 #+BEGIN_NOTES
 - mid 90s - mid 2000s
+- I started the Stuy program
+- Late 90s designed intro -> great gender results
+- Offering by Junior is early enough 
 - few cohesive programs but some stuff in special schools
 - Stu Feldman's prediction / comment 
 #+END_NOTES
@@ -109,6 +112,7 @@
 - FW proposed a school - AFSE
 - Bloomberg tech influence but bad overall for education
 - Second school
+- code.org video in 2013 (spoke in 2012 I guess)
 - BdB had to one up Bloomberg with CS for al    
 #+END_NOTES
 
@@ -121,17 +125,29 @@
 - can go like all other ed or can make a difference
 #+END_NOTES
 * The Future
-- We must pay attention to Ed not just CS Ed
-- Why PD based is bad (vs pre and in service classes)
-- Flavor of the month learning (Coding->Cybersecurity->AI)
-- CS Integration to other fields
-- Teachers need a bigger voice
+#+ATTR_REVEAL: :frag (t)
+- CS Ed
+  - We need more than PD based solutions
+  - Shift to pre/in service programs
+  - But not all programs are created equal
+  - CS Teachers must take more control
+  - Watch out for the flavor of the month
+    
+- General Ed
+  - We must pay attention to Ed not just CS Ed
+  - We Must be careful not to devalue education as a whole
+  - Is it the subject or the student
+
 #+BEGIN_NOTES
-- cert programs not created equally (no child left behind)
-- Companies and power players  have too much control
-- seek out CS Teacher communities
 - push back against standards and canned curricula
 - Compare to math educators   
-  
+- must not be bound by canned curriculum
+    
 #+END_NOTES
-  
+* Final Thoughts
+#+BEGIN_NOTES
+- Relationships
+- Small things make a difference
+- Saving lives 
+#+END_NOTES
+
