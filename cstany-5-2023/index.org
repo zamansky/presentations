@@ -77,7 +77,7 @@
 - Early 90s
 - computer labs more prevalent in schools
 - end of APCS-AB (low APCS scores overall)
-- DOE not interested   
+- DOE not interested
 #+END_NOTES
 
 * The Dark Ages
@@ -88,7 +88,7 @@
 - DOE not interested
 #+BEGIN_NOTES
 - mid 90s - mid 2000s
-- I started the Stuy program
+- I started the Stuy program, my epiphany
 - Late 90s designed intro -> great gender results
 - Offering by Junior is early enough 
 - few cohesive programs but some stuff in special schools
@@ -120,8 +120,11 @@
 - CS4All 
 - CSforNY
 - DOE training
-- Code.org, College Board, Ed Tech explosion  
+- Code.org, College Board, Ed Tech explosion
+- APSP-P
 #+BEGIN_NOTES
+- APCSP - 2017 - tied to PSAT Jr (code.org)
+- APSP - can be good or bad "backed by research"
 - can go like all other ed or can make a difference
 #+END_NOTES
 * The Future
