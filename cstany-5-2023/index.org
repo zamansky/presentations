@@ -122,6 +122,7 @@
 - DOE training
 - Code.org, College Board, Ed Tech explosion
 - APSP-P
+- CS Certification 
 #+BEGIN_NOTES
 - APCSP - 2017 - tied to PSAT Jr (code.org)
 - APSP - can be good or bad "backed by research"
