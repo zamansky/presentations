@@ -7,12 +7,12 @@
 #+EMAIL: Email: zamansky@gmail.com<br>Twitter: @zamansky
 
 * Hi
+add about me
+#+BEGIN_NOTES
 - PS190 -> MS178 -> Stuy -> NYU
 - Goldman Sachs
-
 - Seward Park / Stuyvesant
 - Hunter
-#+BEGIN_NOTES
 - worked my way through college
 - NYU arts and sciences (maybe talk about Tandon history)
 - not a software engineer
@@ -35,14 +35,19 @@
 #+END_NOTES
 * Current College CS Pathway
 - BS or BA
-- PHD
-- Some Entrepreneurship, some practical
-* New concerns
-- Ethics
-- AI
+- Mostly focused on prepping for PhD
+- Some Entrepreneurship programs, some practical
 #+BEGIN_NOTES
 - Most people think BS
 - But BA or at least more liberal arts can be better
+#+END_NOTES
+
+* New concerns in CS Ed
+- Ethics
+- AI
+#+BEGIN_NOTES
+- Ethics - example of facial recognition, image search, soap
+- AI
 #+END_NOTES
 
 * Why Liberal Arts
@@ -56,11 +61,16 @@ more empathetic to all people.
 #+end_quote
 #+BEGIN_NOTES
 - Ben and Brian
-  
+- CS parts mostly the same 
 #+END_NOTES
 
 * CS Relates to other fields
 https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Termites.nlogo
 
 * Other fields supports CS
+#+BEGIN_NOTES
+- story telling
+- psychology
+- anthropoloygam
+#+END_NOTES
 
