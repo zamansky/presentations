@@ -4,6 +4,6 @@
 
 * Active presentations
 
-- [[./cstany-5-2023/index.html][CSTA NYC 5/25/2023]]
+- [[./hackny/index.html][Hack NY]]
 
  
