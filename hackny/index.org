@@ -2,9 +2,22 @@
 #+REVEAL_THEME: serif
 #+OPTIONS: toc:nil num:nil date:nil email:t 
 #+OPTIONS: reveal_title_slide:"<h3>%t</h3><br><h3>%a<br>zamansky@gmail.com</h3><p><h3>@zamansky</h3><h3>cestlaz.github.io</h3>"
-#+TITLE:  Non tech classes for tech majors
+#+TITLE:  Influence without influence
 #+AUTHOR: Mike Zamansky
 #+EMAIL: Email: zamansky@gmail.com<br>Twitter: @zamansky
+
+- my journey
+- soft eng -> seward -> Stuy
+- seward (math teacher some CS)
+- Stuy math, then CS, plan for AP Math then Richie passed away
+- created intro course
+- struggles with Stuy (hack the school)
+- struggles with DOE
+- establishing a name for myself
+- how this led to Hunter
+- How things went from there
+- takeaways
+
 
 * Hi
 add about me
