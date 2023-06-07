@@ -37,6 +37,7 @@
 * The plan goes awry
 - Richie dies
 * An epiphany
+- Hacked the school - from an idea to a requirement
 - tried to push with DOE
 - Tried to push at Stuy
     
