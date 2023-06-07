@@ -1,0 +1,76 @@
+#+REVEAL_ROOT: ../reveal-root
+#+REVEAL_THEME: serif
+#+OPTIONS: toc:nil num:nil date:nil email:t 
+#+OPTIONS: reveal_title_slide:"<h3>%t</h3><br><h3>%a<br>zamansky@gmail.com</h3><p><h3>@zamansky</h3><h3>cestlaz.github.io</h3>"
+#+TITLE:  Non tech classes for tech majors
+#+AUTHOR: Mike Zamansky
+#+EMAIL: Email: zamansky@gmail.com<br>Twitter: @zamansky
+
+* Hi
+add about me
+#+BEGIN_NOTES
+- PS190 -> MS178 -> Stuy -> NYU
+- Goldman Sachs
+- Seward Park / Stuyvesant
+- Hunter
+- worked my way through college
+- NYU arts and sciences (maybe talk about Tandon history)
+- not a software engineer
+- big public education guy
+- big in CS Ed space for a long time 
+#+END_NOTES
+
+* Current K12 CS
+- What is K12 CS
+- Should it be all programming
+- Should it be everything else
+- Should it be its own class
+- Should it be integrated
+#+BEGIN_NOTES
+- different in each state
+- Do we need in all 12 grades
+- Driven by AP
+- Most thought leaders either don't know CS or don't teach
+- integrated is frequently stuff we've always done
+#+END_NOTES
+* Current College CS Pathway
+- BS or BA
+- Mostly focused on prepping for PhD
+- Some Entrepreneurship programs, some practical
+#+BEGIN_NOTES
+- Most people think BS
+- But BA or at least more liberal arts can be better
+#+END_NOTES
+
+* New concerns in CS Ed
+- Ethics
+- AI
+#+BEGIN_NOTES
+- Ethics - example of facial recognition, image search, soap
+- AI
+#+END_NOTES
+
+* Why Liberal Arts
+#+begin_quote
+My degree is in history. I didn’t use it professionally, but it has
+enriched my life in numerous ways. I see today’s news in a larger
+context of what has come before. The struggles of so many groups
+throughout history just to be treated fairly—from Blacks, to Asians,
+to Jews, to Muslims, to Catholics, to Irish, and so on—has made me
+more empathetic to all people.
+#+end_quote
+#+BEGIN_NOTES
+- Ben and Brian
+- CS parts mostly the same 
+#+END_NOTES
+
+* CS Relates to other fields
+https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Termites.nlogo
+
+* Other fields supports CS
+#+BEGIN_NOTES
+- story telling
+- psychology
+- anthropoloygam
+#+END_NOTES
+
