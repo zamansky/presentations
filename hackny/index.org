@@ -12,7 +12,7 @@
 - @zamansky
 - cestlaz.github.io
 #+BEGIN_NOTES
-
+- going to talk about journey
 #+END_NOTES
 * NYU BPA and Goldman
 #+BEGIN_NOTES
@@ -21,22 +21,44 @@
 - Wall street was it
 - no internet for the most part - usenet
 - Big Electric Cat / Minix
+- Didn't really have direction 
 #+END_NOTES
 
 * From the street to the school
-- left Goldman
+- Time to get off the street
 - Did some consulting
 - Figured on trying the teaching thing
-- started at Seward
+- fell in to Seward 
+#+BEGIN_NOTES
+- wall street not satisfying (what if there was Google?)
+- Wasn't qualified to teach
+- how I got my teaching gig (and then getting certified)  
+#+END_NOTES
     
-* Stuy
-- Excessed from Seward
-- Teaching Math at Stuy
+* From Seward to Stuy 
+- 1 opening  = 3 teachers
+- Getting to Stuy
+- Teaching math
 - Finally CS
-- Geometry sucks 
+#+BEGIN_NOTES
+- Happy to teach the top CS
+#+END_NOTES
+* The start of a program
+- Geometry sucks
+- Hacking a schedule
+- Math Chair in waiting
+#+BEGIN_NOTES
+- creating graphics and Systems
+#+END_NOTES
+  
 * The plan goes awry
-- Richie dies
+#+BEGIN_NOTES
+- rich dies
+- needed one other teacher
+- demand still growing 
+#+END_NOTES
 * An epiphany
+- Putnam Fellows would be fine without me 
 - Hacked the school - from an idea to a requirement
 - tried to push with DOE
 - Tried to push at Stuy
