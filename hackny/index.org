@@ -2,7 +2,7 @@
 #+REVEAL_THEME: serif
 #+OPTIONS: toc:nil num:nil date:nil email:t 
 #+OPTIONS: reveal_title_slide:"<h3>%t</h3><br><h3>%a<br>zamansky@gmail.com</h3><p><h3>@zamansky</h3><h3>cestlaz.github.io</h3>"
-#+TITLE:  Influence without influence
+#+TITLE:  A CS Teacher's Journey
 #+AUTHOR: Mike Zamansky
 #+EMAIL: Email: zamansky@gmail.com<br>Twitter: @zamansky
 
@@ -14,17 +14,21 @@
 #+BEGIN_NOTES
 - going to talk about journey
 #+END_NOTES
-* NYU BPA and Goldman
+* K12 -> NYU -> Goldman
+#+ATTR_REVEAL: :frag (t)
+- Self taught / APCS
+- NYU Arts and Science (not Engineering)
+- Worked for BPA
+- No Tech community / no tech interviews
 #+BEGIN_NOTES
-- Worked my way through school for CS
-- No tech community - only IBM/Bell/Bellcore
-- Wall street was it
-- no internet for the most part - usenet
+- No real plan
+- no full internet - usenet
 - Big Electric Cat / Minix
 - Didn't really have direction 
 #+END_NOTES
 
 * From the street to the school
+#+ATTR_REVEAL: :frag (t)
 - Time to get off the street
 - Did some consulting
 - Figured on trying the teaching thing
@@ -35,7 +39,9 @@
 - how I got my teaching gig (and then getting certified)  
 #+END_NOTES
     
-* From Seward to Stuy 
+* From Seward to Stuy
+#+ATTR_REVEAL: :frag (t)
+- Taught math and some CS
 - 1 opening  = 3 teachers
 - Getting to Stuy
 - Teaching math
@@ -44,11 +50,14 @@
 - Happy to teach the top CS
 #+END_NOTES
 * The start of a program
+#+ATTR_REVEAL: :frag (t)
+- What I learned teaching at Seward
 - Geometry sucks
 - Hacking a schedule
 - Math Chair in waiting
 #+BEGIN_NOTES
 - creating graphics and Systems
+- where I was then (more for me than students)
 #+END_NOTES
   
 * The plan goes awry
@@ -58,11 +67,14 @@
 - demand still growing 
 #+END_NOTES
 * An epiphany
+#+ATTR_REVEAL: :frag (t)
 - Putnam Fellows would be fine without me 
 - Hacked the school - from an idea to a requirement
+- reworked courses based on graduates
+- program starts to build 
 - tried to push with DOE
 - Tried to push at Stuy
-    
+ 
 * The change 
 #+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
 [[file:avc1.png]]
@@ -72,11 +84,34 @@
 [[file:avc2.png]]
 #+REVEAL_HTML: </div>
 
-- establishing a name in Tech 
+#+BEGIN_NOTES
+- establishing my name in tech
+- Need for a champion 
+- Tell story going to AFSE
+#+END_NOTES
+* The next few years
+#+BEGIN_NOTES
+- Became more in touch with tech community
+- Continued involvement with CS Ed movement
+- Still no movement in DOE (good and bad stuff)
+#+END_NOTES
 
-* Movin on up
-- hunter
+
+* New opportunities
+#+ATTR_REVEAL: :frag (t)
+- Leaving Stuy and finding Hunter
+- Undergrad CS
+- Teacher education
   
+  
+* Takeaways
+#+ATTR_REVEAL: :frag (t)
+#+BEGIN_NOTES
+- most influence with least influence 
+#+END_NOTES
+
+
+
 
 - my journey
 - soft eng -> seward -> Stuy
