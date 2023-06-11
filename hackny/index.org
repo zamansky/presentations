@@ -106,21 +106,16 @@
   
 * Takeaways
 #+ATTR_REVEAL: :frag (t)
+- A career in the service of others
+- [[file:magoo.png]]
+
 #+BEGIN_NOTES
+- Can't fake it - be who you are
+- sincerity - help others, follow up, thank you cards 
+- could have gone further if I compromised
 - most influence with least influence 
 #+END_NOTES
 
 
 
 
-- my journey
-- soft eng -> seward -> Stuy
-- seward (math teacher some CS)
-- Stuy math, then CS, plan for AP Math then Richie passed away
-- created intro course
-- struggles with Stuy (hack the school)
-- struggles with DOE
-- establishing a name for myself
-- how this led to Hunter
-- How things went from there
-- takeaways
