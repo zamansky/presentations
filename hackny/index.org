@@ -107,6 +107,7 @@
 * Takeaways
 #+ATTR_REVEAL: :frag (t)
 - A career in the service of others
+- It's okay to not know your path 
 - [[file:magoo.png]]
 
 #+BEGIN_NOTES
