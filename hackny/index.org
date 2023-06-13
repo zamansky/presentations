@@ -21,7 +21,7 @@
 - Worked for BPA
 - No Tech community / no tech interviews
 #+BEGIN_NOTES
-- No real plan
+- Worked my way through 
 - no full internet - usenet
 - Big Electric Cat / Minix
 - Didn't really have direction 
@@ -36,7 +36,8 @@
 #+BEGIN_NOTES
 - wall street not satisfying (what if there was Google?)
 - Wasn't qualified to teach
-- how I got my teaching gig (and then getting certified)  
+- how I got my teaching gig (and then getting certified)
+- Seward made me learn how to teach
 #+END_NOTES
     
 * From Seward to Stuy
@@ -47,6 +48,8 @@
 - Teaching math
 - Finally CS
 #+BEGIN_NOTES
+- learned about "the machine"
+- School didn't have my back 
 - Happy to teach the top CS
 #+END_NOTES
 * The start of a program
@@ -64,7 +67,8 @@
 #+BEGIN_NOTES
 - rich dies
 - needed one other teacher
-- demand still growing 
+- demand still growing
+- started thinking about a CS dept
 #+END_NOTES
 * An epiphany
 #+ATTR_REVEAL: :frag (t)
@@ -74,7 +78,11 @@
 - program starts to build 
 - tried to push with DOE
 - Tried to push at Stuy
- 
+ #+BEGIN_NOTES
+- Hacked - soph year, replace drafting
+- 2 years enough to inspire
+- requirement moved the needle
+#+END_NOTES
 * The change 
 #+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
 [[file:avc1.png]]
@@ -88,12 +96,15 @@
 - establishing my name in tech
 - Need for a champion 
 - Tell story going to AFSE
+- I didn't compromise
 #+END_NOTES
 * The next few years
 #+BEGIN_NOTES
 - Became more in touch with tech community
 - Continued involvement with CS Ed movement
-- Still no movement in DOE (good and bad stuff)
+- DOE proceeded with CS4All
+- PD based model
+- code.org, AP and other non educators
 #+END_NOTES
 
 
@@ -107,11 +118,16 @@
 * Takeaways
 #+ATTR_REVEAL: :frag (t)
 - A career in the service of others
-- It's okay to not know your path 
+- It's okay to not know your path
+- Build your network when you don't need it
+- Pay it forward and back
+- You can make a difference in unexpected ways  
 - [[file:magoo.png]]
 
 #+BEGIN_NOTES
-- Can't fake it - be who you are
+- Serial entrepreneur is okay (makes jobs)
+- also okay not to
+- Can't fakeit - be who you are
 - sincerity - help others, follow up, thank you cards 
 - could have gone further if I compromised
 - most influence with least influence 
