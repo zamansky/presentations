@@ -118,11 +118,12 @@
 * Takeaways
 #+ATTR_REVEAL: :frag (t)
 - A career in the service of others
+- [[file:magoo.png]]
 - It's okay to not know your path
 - Build your network when you don't need it
 - Pay it forward and back
 - You can make a difference in unexpected ways  
-- [[file:magoo.png]]
+
 
 #+BEGIN_NOTES
 - Serial entrepreneur is okay (makes jobs)
