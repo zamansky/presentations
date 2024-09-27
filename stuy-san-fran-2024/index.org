@@ -5,6 +5,8 @@
 #+TITLE:  CS Ed, Stuy, and New York
 #+AUTHOR: Mike Zamansky
 #+EMAIL: Email: zamansky@gmail.com<br>Twitter: @zamansky
+#+REVEAL_INIT_OPTIONS: showNotes: true
+
 
 #+BEGIN_EXPORT html
 <style>
@@ -64,8 +66,6 @@
 </ul>
 </div>
 
-
-
 <div id="right">  
 <img height="200" src="ibm-1130.jpg">
 
@@ -93,14 +93,14 @@
 - labs separate from teaching
 - end  APCS-AB 
 - DOE not interested
-- some focus on internships
+- me - some focus on internships
 #+END_NOTES
 
 * The Iron Age
 - Stuy's required intro course
 - Growth to multiple teachers  
 #+BEGIN_NOTES
-- game changer in Stuy
+- late 90s game changer in Stuy
 - shift from internships to research
 #+END_NOTES
 * A Turning Point
@@ -118,7 +118,7 @@
 - proposed a school - went nowhere
 - FW proposed a school - AFSE
 - code.org video in 2013
-- BdB CS for al    
+- BdB CS for all    
 #+END_NOTES
 * Modern age
 #+begin_export html
@@ -137,9 +137,6 @@
 #+begin_export html
 </small>
 #+end_export
-
-
-
 
 * UsaToday
 - Some states have standards
@@ -175,3 +172,11 @@
 - Clubs
 - AI
 * Final thoughts 
+#+BEGIN_NOTES
+- AI in general at Stuy
+- AI in CS at Stuy
+- AI in city / country
+- AI for all Data Science for All
+- Stuy needs mentors / to be a dept
+- mentoring next big thing  
+#+END_NOTES
