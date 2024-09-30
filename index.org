@@ -4,6 +4,7 @@
 
 * Active presentations
 
-- [[./hackny/index.html][Hack NY]]
+- [[./stuy-san-fran-2024/index.html][Stuy Tech Meetup]]
+
 
  
