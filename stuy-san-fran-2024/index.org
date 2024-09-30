@@ -5,7 +5,6 @@
 #+TITLE:  CS Ed, Stuy, and New York
 #+AUTHOR: Mike Zamansky
 #+EMAIL: Email: zamansky@gmail.com<br>Twitter: @zamansky
-#+REVEAL_INIT_OPTIONS: showNotes: true
 
 
 #+BEGIN_EXPORT html
