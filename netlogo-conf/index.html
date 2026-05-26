@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>CS Ed in NYC</title>
+<meta name="author" content="Mike Zamansky"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="../reveal-root/css/reveal.css"/>
+
+<link rel="stylesheet" href="../reveal-root/css/theme/serif.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = '../reveal-root/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h3>CS Ed in NYC</h3><br><h3>Mike Zamansky<br>zamansky@gmail.com</h3><p><h3>@zamansky</h3><h3>cestlaz.github.io</h3>
+</section>
+<section>
+<section id="slide-orga8644da">
+<h2 id="orga8644da">Stuyvesant</h2>
+
+<style>
+
+#left {
+  left:-8.33%;
+  text-align: left;
+  float: left;
+  width:75%;
+  z-index:-10;
+}
+
+#right {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: right;
+  z-index:-10;
+  width:25%;
+}
+</style>
+
+<div id="left">
+<ul>
+<li> Opened 1904 - trade school
+<li> Public Magnet
+<li> Test based admissions
+</ul>
+
+
+</div>
+
+<div id="right">  
+<img height="200" src="oldstuy.jpg">
+<img height="200" src="newstuy.jpg">
+
+</div>
+<aside class="notes">
+<ul>
+<li>Talk about Stuy's history</li>
+
+</ul>
+
+</aside>
+</section>
+</section>
+<section>
+<section id="slide-orgc83d493">
+<h2 id="orgc83d493">CS at Stuy and elsewhere</h2>
+<img height="200" src="ibm-1130.jpeg">
+<img height="200" src="punch-card.jpg">
+<ul>
+<li>Electives by math teachers</li>
+<li>APCS</li>
+
+</ul>
+<aside class="notes">
+<ul>
+<li>Give history until my epiphany</li>
+
+</ul>
+
+</aside>
+</section>
+</section>
+<section>
+<section id="slide-orgb452846">
+<h2 id="orgb452846">An epiphany</h2>
+<img height="250" src="epiphany.gif">
+<ul>
+<li>Stuy kids would be alright without me</li>
+<li>Reading list:
+<ul>
+<li>The Philosophical Computer - Grim, et al.</li>
+<li>Computational Beuaty of Nature - Flake</li>
+<li>Turtles Termites and Traffic Jams - Resnick</li>
+
+</ul></li>
+
+</ul>
+
+<aside class="notes">
+<ul>
+<li>Describe the 80% 20% issue</li>
+<li>Gender representation at Stuy</li>
+<li>created as a single section elective</li>
+
+</ul>
+
+</aside>
+</section>
+</section>
+<section>
+<section id="slide-org0646346">
+<h2 id="org0646346">Hacking the school</h2>
+<ul>
+<li>The Road to a requirement</li>
+<li>Effects on StuyCS and Stuy</li>
+
+</ul>
+<aside class="notes">
+<ul>
+<li>Well get to class design later</li>
+<li>class got popular</li>
+<li>Drafting dilema</li>
+<li>Credit for Boris' classes</li>
+<li>A requirement</li>
+<li>Road to today</li>
+
+</ul>
+
+</aside>
+</section>
+</section>
+<section>
+<section id="slide-org08fd402">
+<h2 id="org08fd402">Design considerations</h2>
+<ul>
+<li>Not just programming</li>
+<li>Multiple modalities</li>
+<li>CS and non CS concepts</li>
+
+</ul>
+
+<aside class="notes">
+<ul>
+<li>cold calling</li>
+<li>80/20 - can't design from back.</li>
+<li>wanted to teach programming but also more</li>
+
+</ul>
+
+</aside>
+</section>
+</section>
+<section>
+<section id="slide-org116f629">
+<h2 id="org116f629">Design</h2>
+<ul>
+<li>Netlogo, Scheme, C++</li>
+<li>Scheme, Netlogo, Python</li>
+<li>Just Scheme and Netlogo</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org423114b">
+<h2 id="org423114b">Results</h2>
+<ul>
+<li>More students taking advanced CS</li>
+<li>Gender equality</li>
+<li>Non CS students and CS students approve</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org640d24d">
+<h2 id="org640d24d">Cellular Automata</h2>
+</section>
+</section>
+<section>
+<section id="slide-orgdcf3aab">
+<h2 id="orgdcf3aab">Image Processing</h2>
+</section>
+</section>
+</div>
+</div>
+<script src="../reveal-root/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: '../reveal-root/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: '../reveal-root/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: '../reveal-root/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: '../reveal-root/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});
+
+</script>
+</body>
+</html>

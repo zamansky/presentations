@@ -1,0 +1,115 @@
+#+REVEAL_ROOT: ../reveal-root
+#+REVEAL_THEME: serif
+#+OPTIONS: toc:nil num:nil date:nil email:t 
+#+OPTIONS: reveal_title_slide:"<h3>%t</h3><br><h3>%a<br>zamansky@gmail.com</h3><p><h3>@zamansky</h3><h3>cestlaz.github.io</h3>"
+#+TITLE:  CS Ed in NYC
+#+AUTHOR: Mike Zamansky
+#+EMAIL: Email: zamansky@gmail.com<br>Twitter: @zamansky
+
+
+* Stuyvesant
+#+BEGIN_EXPORT html
+
+<style>
+
+#left {
+  left:-8.33%;
+  text-align: left;
+  float: left;
+  width:75%;
+  z-index:-10;
+}
+
+#right {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: right;
+  z-index:-10;
+  width:25%;
+}
+</style>
+
+<div id="left">
+<ul>
+<li> Opened 1904 - trade school
+<li> Public Magnet
+<li> Test based admissions
+</ul>
+
+
+</div>
+
+<div id="right">  
+<img height="200" src="oldstuy.jpg">
+<img height="200" src="newstuy.jpg">
+
+</div>
+
+#+END_EXPORT
+#+BEGIN_NOTES
+- Talk about Stuy's history
+#+END_NOTES
+
+* CS at Stuy and elsewhere
+#+begin_export html
+<img height="200" src="ibm-1130.jpeg">
+<img height="200" src="punch-card.jpg">
+#+end_export
+- Electives by math teachers
+- APCS
+#+BEGIN_NOTES
+- Give history until my epiphany
+#+END_NOTES
+
+
+* An epiphany
+#+begin_export html
+<img height="250" src="epiphany.gif">
+#+end_export
+- Stuy kids would be alright without me
+- Reading list:
+  - The Philosophical Computer - Grim, et al.
+  - Computational Beuaty of Nature - Flake
+  - Turtles Termites and Traffic Jams - Resnick
+    
+#+BEGIN_NOTES
+- Describe the 80% 20% issue
+- Gender representation at Stuy
+- created as a single section elective
+#+END_NOTES
+
+* Hacking the school
+- The Road to a requirement
+- Effects on StuyCS and Stuy
+#+BEGIN_NOTES
+- Well get to class design later
+- class got popular
+- Drafting dilema
+- Credit for Boris' classes
+- A requirement
+- Road to today 
+#+END_NOTES
+
+* Design considerations
+- Not just programming
+- Multiple modalities
+- CS and non CS concepts
+
+#+BEGIN_NOTES
+- cold calling
+- 80/20 - can't design from back.
+- wanted to teach programming but also more
+#+END_NOTES
+* Design
+- Netlogo, Scheme, C++
+- Scheme, Netlogo, Python
+- Just Scheme and Netlogo
+* Results
+- More students taking advanced CS
+- Gender equality
+- Non CS students and CS students approve
+  
+* Cellular Automata
+* Image Processing 
+
