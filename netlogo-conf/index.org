@@ -111,5 +111,17 @@
 - Non CS students and CS students approve
   
 * Cellular Automata
+#+begin_export html
+<img height="150" src="life.gif">
+#+end_export
+
+#+BEGIN_NOTES
+- different way of looking at things
+- Always do game of life
+- Why that's still cool
+- Maze building workshop
+  
+#+END_NOTES
+
 * Image Processing 
 
