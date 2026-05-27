@@ -33,16 +33,20 @@ end
 - don't dorget to set labels back to ""
   #+begin_src 
 to recover-path
-  ifelse any? patches with [pcolor = red and any? neighbors4 with [pcolor = green] ] [
-    stop ]
- [
-    ask patches with [pcolor = red and recovered = false] [
-      if any? neighbors4 with [pcolor = yellow] [
-        let tset neighbors4 with [pcolor = yellow]
-        ask min-one-of tset [step] [set pcolor red]
-        set recovered true
-      ]
-    ]
+  ifelse any? patches with [pcolor = red and any? neighbors4 with [pcolor = green] ][
+    stop
+  ] [
+   ask patches with [pcolor = red and recovered = false] [
+     if any? neighbors4 with [pcolor = yellow] [
+      let tset neighbors4 with [pcolor = yellow]
+      ask min-one-of tset [step] [set pcolor red]
+      set recovered true
+
+
+     ]
+   ]
+
+
   ]
 end
 #+end_src
