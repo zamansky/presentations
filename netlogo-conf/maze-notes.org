@@ -1,0 +1,49 @@
+* Cellular automata
+- look at game of life
+- go over rules, emergent behavior
+- why maze
+* Starter code
+
+
+* Solve step
+#+begin_src 
+
+to solve-step
+  ask patches with [pcolor = white][
+    if any? neighbors4 with [pcolor = green] or any? neighbors4 with [pcolor = yellow] [
+      set pcolor yellow
+    ]
+  ]
+end  
+#+end_src
+* Modify solve-step
+- add globals [solved]
+- add ifelse to only solve and add
+  #+begin_src  
+  ask patches with [pcolor = red] [
+      if any? neighbors4 with [pcolor = yellow] [
+        set solved true
+      ]
+#+end_src
+- make solve-step solve and a forever button
+* Add step counter
+- patches-own [step recovered]
+  
+* Add recover path
+- don't dorget to set labels back to ""
+  #+begin_src 
+to recover-path
+  ifelse any? patches with [pcolor = red and any? neighbors4 with [pcolor = green] ] [
+    stop ]
+ [
+    ask patches with [pcolor = red and recovered = false] [
+      if any? neighbors4 with [pcolor = yellow] [
+        let tset neighbors4 with [pcolor = yellow]
+        ask min-one-of tset [step] [set pcolor red]
+        set recovered true
+      ]
+    ]
+  ]
+end
+#+end_src
+
