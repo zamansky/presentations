@@ -105,6 +105,11 @@
 - Netlogo, Scheme, C++
 - Scheme, Netlogo, Python
 - Just Scheme and Netlogo
+  #+BEGIN_NOTES
+  - moving languages
+  - dropping Python
+  - Discussions with Peter 
+  #+END_NOTES
 * Results
 - More students taking advanced CS
 - Gender equality
