@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <model version="NetLogo 7.0.3" snapToGrid="true">
-  <code>patches-own [start_color next_color]
+  <code><![CDATA[patches-own [start_color next_color diff bwcolor bwcolorlist]
 
 to setup
   ca
@@ -8,6 +8,7 @@ to setup
   set-patch-size 1
   import-pcolors "macaw.jpg"
   ask patches [set start_color pcolor]
+  
 end
 
 
@@ -61,18 +62,78 @@ to recolor
   ask patches with [shade-of? red pcolor] [set pcolor blue + (pcolor - red)] 
 end
 
-to grayscale
-  ask patches [ set pcolor pcolor mod 10 ]
+
+to edge1
+  ask patches [
+    let s [pcolor] of patch-at -1 0 + [pcolor] of patch-at  1 0
+    set diff abs pcolor * 2 - s
+    ifelse diff > threshold [ set pcolor black] [ set pcolor white]
+      
+  ]
 end
-</code>
+
+
+to edge2
+  ask patches [
+    let s[pcolor] of patch-at -1 0 + [pcolor] of patch-at  1 0 + [pcolor] of patch-at 0 1 + [pcolor] of patch-at -1 0
+    set diff abs pcolor * 4 - s
+    ifelse diff > threshold [ set pcolor black] [ set pcolor white]
+      
+  ]
+end
+
+
+to setup-rgb
+  ca
+  set-patch-size 1
+  resize-world 0 500 0 500
+  import-pcolors-rgb "macaw.jpg"
+  ask patches with [pcolor = 0] [set pcolor [0 0 0]]
+end
+
+to decolor
+  ask patches [
+  let tmp 0
+  carefully [set tmp sum pcolor] [set tmp 0]
+  let col tmp / 3
+  let cl (list col col col)
+  set bwcolor col
+  set bwcolorlist cl
+  set pcolor cl
+  ]
+  
+  
+end
+
+
+
+
+to edge-rgb
+  ask patches [
+  let lx -.5 * [bwcolor] of patch-at -1 0 + .5 * [bwcolor] of patch-at 1 0
+  let ly -.5 * [bwcolor]  of patch-at 0 -1 + .5 * [bwcolor] of patch-at 0 1
+  set diff  lx * lx + ly * ly
+  set diff sqrt diff
+  ifelse diff > threshold [ set pcolor [0 0 0]] [ set pcolor [255 255 255 ]]
+  ]
+end
+
+
+
+]]></code>
   <widgets>
-    <view x="368" wrappingAllowedX="true" y="10" frameRate="30.0" minPycor="-250" height="503" showTickCounter="true" patchSize="1.0" fontSize="10" wrappingAllowedY="true" width="503" tickCounterLabel="ticks" maxPycor="250" updateMode="0" maxPxcor="250" minPxcor="-250"></view>
+    <view x="368" wrappingAllowedX="true" y="10" frameRate="30.0" minPycor="0" height="503" showTickCounter="true" patchSize="1.0" fontSize="10" wrappingAllowedY="true" width="503" tickCounterLabel="ticks" maxPycor="500" updateMode="0" maxPxcor="500" minPxcor="0"></view>
     <button x="30" y="20" height="40" disableUntilTicks="false" forever="false" kind="Observer" width="65">setup</button>
     <button x="30" y="75" height="40" disableUntilTicks="false" forever="true" kind="Observer" width="71">shift</button>
     <button x="100" y="75" height="40" disableUntilTicks="false" forever="true" kind="Observer" width="80">shift2
 </button>
     <button x="30" y="120" height="40" disableUntilTicks="false" forever="false" kind="Observer" width="96">flip-over-x</button>
     <button x="30" y="170" height="40" disableUntilTicks="false" forever="true" kind="Observer" width="116">transform</button>
+    <slider x="20" step="1" y="235" max="100" width="250" display="threshold" height="50" min="0" direction="Horizontal" default="10.0" variable="threshold" units=".25"></slider>
+    <button x="25" y="315" height="40" disableUntilTicks="false" forever="false" kind="Observer" width="85">setup-rgb
+</button>
+    <button x="125" y="315" height="40" disableUntilTicks="false" forever="false" kind="Observer" width="70">decolor
+</button>
   </widgets>
   <info>## WHAT IS IT?
 
