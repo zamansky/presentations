@@ -1,0 +1,147 @@
+
+* Initialize
+#+begin_src
+patches-own [start_color next_color diff bwcolor bwcolorlist]
+
+to setup
+  ca
+  resize-world -250 250 -250 250
+  set-patch-size 1
+  import-pcolors "macaw.jpg"
+  ask patches [set start_color pcolor]
+  
+end
+
+#+end_src
+
+* shift
+- ask audience and do niave version
+- then improved version
+  
+#+begin_src
+  to shift
+    ask patches [
+      set pcolor [pcolor] of patch-at 1 0
+    ]
+  end
+  to shift2
+    ask patches [
+      set next_color [pcolor] of patch-at 1 0 
+    ]
+    
+    ask patches [ 
+      set pcolor next_color
+    ]
+  end
+
+
+#+end_src
+
+* trans Geom
+#+begin_src
+to flip-over-x
+  ask patches [ 
+    set next_color [pcolor] of patch pxcor (pycor * -1)
+  ]
+  ask patches [
+    set pcolor next_color
+  ]
+  
+end
+
+to transform
+  ask patches [
+    set next_color [pcolor] of patch (pxcor + 16 ) (pycor + 16 )
+  ]
+  ask patches [
+    set pcolor next_color
+  ]
+end
+
+#+end_src
+
+* Then do this one
+#+begin_src
+to cyclical-transform
+  ask patches [
+    set next_color [pcolor] of patch-at (pxcor + 16) (pycor + 16) 
+  ]
+  ask patches [
+    set pcolor next_color
+  ]
+end
+
+
+#+end_src
+
+* recolor
+- first to basic color (shade of green -> red) then scaled
+  #+begin_src 
+to recolor
+  ask patches with [shade-of? orange pcolor] [set pcolor green + (pcolor - orange)] 
+  ask patches with [shade-of? red pcolor] [set pcolor blue + (pcolor - red)] 
+end
+
+#+end_src
+
+* naive edge detection
+#+begin_src
+to edge1
+  ask patches [
+    let s [pcolor] of patch-at -1 0 + [pcolor] of patch-at  1 0
+    set diff abs pcolor * 2 - s
+    ifelse diff > threshold [ set pcolor black] [ set pcolor white]
+      
+  ]
+end
+
+
+to edge2
+  ask patches [
+    let s[pcolor] of patch-at -1 0 + [pcolor] of patch-at  1 0 + [pcolor] of patch-at 0 1 + [pcolor] of patch-at -1 0
+    set diff abs pcolor * 4 - s
+    ifelse diff > threshold [ set pcolor black] [ set pcolor white]
+      
+  ]
+end
+#+end_src
+
+* better edge detection
+#+begin_src
+
+to setup-rgb
+  ca
+  set-patch-size 1
+  resize-world 0 500 0 500
+  import-pcolors-rgb "macaw.jpg"
+  ask patches with [pcolor = 0] [set pcolor [0 0 0]]
+end
+
+to decolor
+  ask patches [
+  let tmp 0
+  carefully [set tmp sum pcolor] [set tmp 0]
+  let col tmp / 3
+  let cl (list col col col)
+  set bwcolor col
+  set bwcolorlist cl
+  set pcolor cl
+  ]
+  
+  
+end
+
+
+
+
+to edge-rgb
+  ask patches [
+  let lx -.5 * [bwcolor] of patch-at -1 0 + .5 * [bwcolor] of patch-at 1 0
+  let ly -.5 * [bwcolor]  of patch-at 0 -1 + .5 * [bwcolor] of patch-at 0 1
+  set diff  lx * lx + ly * ly
+  set diff sqrt diff
+  ifelse diff > threshold [ set pcolor [0 0 0]] [ set pcolor [255 255 255 ]]
+  ]
+end
+
+#+end_src
