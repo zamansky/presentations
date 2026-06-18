@@ -35,6 +35,7 @@
 <li> Opened 1904 - trade school
 <li> Public Magnet
 <li> Test based admissions
+<li> https://tinyurl.com/netlogo-conf-2026
 </ul>
 
 
