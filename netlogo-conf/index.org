@@ -6,6 +6,13 @@
 #+AUTHOR: Mike Zamansky
 #+EMAIL: Email: zamansky@gmail.com<br>Twitter: @zamansky
 
+* Link to code
+
+#+begin_export html
+<img height="300" src="netlogo-conf-2026-qr.png">
+#+end_export
+
+-  https://tinyurl.com/netlogo-conf-2026
 
 * Stuyvesant
 #+BEGIN_EXPORT html
@@ -35,7 +42,6 @@
 <li> Opened 1904 - trade school
 <li> Public Magnet
 <li> Test based admissions
-<li> https://tinyurl.com/netlogo-conf-2026
 </ul>
 
 
