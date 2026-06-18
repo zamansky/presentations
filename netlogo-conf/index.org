@@ -40,15 +40,16 @@
 
 </div>
 
+
 <div id="right">  
 <img height="200" src="oldstuy.jpg">
 <img height="200" src="newstuy.jpg">
 
 </div>
-
 #+END_EXPORT
 #+BEGIN_NOTES
 - Talk about Stuy's history
+- get audience's background
 #+END_NOTES
 
 * CS at Stuy and elsewhere
@@ -102,6 +103,7 @@
 - wanted to teach programming but also more
 #+END_NOTES
 * Design
+- Why each language choice
 - Netlogo, Scheme, C++
 - Scheme, Netlogo, Python
 - Just Scheme and Netlogo
