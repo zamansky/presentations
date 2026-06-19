@@ -19,6 +19,20 @@ to solve-step
   ]
 end  
 #+end_src
+
+- this version synchronizes
+  #+begin_src
+  to solve
+  ask patches with [pcolor = white] [
+    ifelse any? neighbors4 with [pcolor = green] or any? neighbors4 with [pcolor = yellow]
+    [ set nextcolor yellow]
+    [ set nextcolor pcolor]
+  ]
+  ask patches with [pcolor = white] [set pcolor nextcolor]
+  
+end
+
+#+end_src
 * Modify solve-step
 - add globals [solved]
 - add ifelse to only solve and add
