@@ -1,11 +1,14 @@
 * Cellular automata
 - look at game of life
 - go over rules, emergent behavior
+- talk about other CA
 - why maze
 * Starter code
 
 
 * Solve step
+- Do unplugged activity 
+
 #+begin_src 
 
 to solve-step
