@@ -34,6 +34,11 @@ end
 #+begin_src 
 ;; this part added for adding step counter
 let laststep [step] of one-of neighbors4 with [pcolor = yellow or pcolor
+set step laststep + 1
+set plabel step
+set plabel-color red
+
+
 #+end_src  
 * Add recover path
 - don't dorget to set labels back to ""
