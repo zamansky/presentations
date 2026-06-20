@@ -31,7 +31,10 @@ end
 - make solve-step solve and a forever button
 * Add step counter
 - patches-own [step recovered]
-  
+#+begin_src 
+;; this part added for adding step counter
+let laststep [step] of one-of neighbors4 with [pcolor = yellow or pcolor
+#+end_src  
 * Add recover path
 - don't dorget to set labels back to ""
   #+begin_src 
