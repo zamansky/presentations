@@ -1,4 +1,8 @@
+#+LATEX_HEADER: \lstset{breaklines=true}  
+
 * Cellular automata
+
+
 - look at game of life
 - go over rules, emergent behavior
 - talk about other CA
@@ -9,7 +13,7 @@
 * Solve step
 - Do unplugged activity 
 
-#+begin_src 
+#+begin_src netlogo
 
 to solve-step
   ask patches with [pcolor = white][
@@ -21,7 +25,7 @@ end
 #+end_src
 
 - this version synchronizes
-  #+begin_src
+  #+begin_src netlogo 
   to solve
   ask patches with [pcolor = white] [
     ifelse any? neighbors4 with [pcolor = green] or any? neighbors4 with [pcolor = yellow]
@@ -36,7 +40,7 @@ end
 * Modify solve-step
 - add globals [solved]
 - add ifelse to only solve and add
-  #+begin_src  
+  #+begin_src netlogo  
   ask patches with [pcolor = red] [
       if any? neighbors4 with [pcolor = yellow] [
         set solved true
@@ -45,7 +49,7 @@ end
 - make solve-step solve and a forever button
 * Add step counter
 - patches-own [step recovered]
-#+begin_src 
+#+begin_src netlogo
 ;; this part added for adding step counter
 let laststep [step] of one-of neighbors4 with [pcolor = yellow or pcolor
 set step laststep + 1
@@ -56,7 +60,7 @@ set plabel-color red
 #+end_src  
 * Add recover path
 - don't dorget to set labels back to ""
-  #+begin_src 
+  #+begin_src netlogo
 to recover-path
   ifelse any? patches with [pcolor = red and any? neighbors4 with [pcolor = green] ][
     stop

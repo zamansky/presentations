@@ -1,6 +1,7 @@
+#+LATEX_HEADER: \lstset{breaklines=true}  
 
 * Initialize
-#+begin_src
+#+begin_src netlogo
 patches-own [start_color next_color diff bwcolor bwcolorlist]
 
 to setup
@@ -18,7 +19,7 @@ end
 - ask audience and do niave version
 - then improved version
   
-#+begin_src
+#+begin_src netlogo
   to shift
     ask patches [
       set pcolor [pcolor] of patch-at 1 0
@@ -38,7 +39,7 @@ end
 #+end_src
 
 * trans Geom
-#+begin_src
+#+begin_src netlogo
 to flip-over-x
   ask patches [ 
     set next_color [pcolor] of patch pxcor (pycor * -1)
@@ -61,7 +62,7 @@ end
 #+end_src
 
 * Then do this one
-#+begin_src
+#+begin_src netlogo
 to cyclical-transform
   ask patches [
     set next_color [pcolor] of patch-at (pxcor + 16) (pycor + 16) 
@@ -76,7 +77,7 @@ end
 
 * recolor
 - first to basic color (shade of green -> red) then scaled
-  #+begin_src 
+  #+begin_src netlogo 
 to recolor
   ask patches with [shade-of? orange pcolor] [set pcolor green + (pcolor - orange)] 
   ask patches with [shade-of? red pcolor] [set pcolor blue + (pcolor - red)] 
@@ -85,7 +86,7 @@ end
 #+end_src
 
 * naive edge detection
-#+begin_src
+#+begin_src netlogo
 to edge1
   ask patches [
     let s [pcolor] of patch-at -1 0 + [pcolor] of patch-at  1 0
@@ -107,7 +108,7 @@ end
 #+end_src
 
 * better edge detection
-#+begin_src
+#+begin_src netlogo
 
 to setup-rgb
   ca
