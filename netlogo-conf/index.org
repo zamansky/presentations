@@ -13,7 +13,13 @@
 #+end_export
 
 -  https://tinyurl.com/netlogo-conf-2026
+* A personal note
 
+#+begin_export html
+<img height="300" src="peter.avif">
+<img height="300" src="peter-qr.svg">
+#+end_export
+- https://tinyurl.com/netlogo-tutorials
 * Stuyvesant
 #+BEGIN_EXPORT html
 

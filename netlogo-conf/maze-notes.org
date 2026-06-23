@@ -11,7 +11,8 @@
 
 
 * Solve step
-- Do unplugged activity 
+- Do unplugged activity to move line of blocks down
+- Do unplugged to solve one step of maze
 
 #+begin_src netlogo
 
