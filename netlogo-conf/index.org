@@ -13,6 +13,18 @@
 #+end_export
 
 -  https://tinyurl.com/netlogo-conf-2026
+* Link to presentation
+
+#+begin_export html
+<img height="300" src="netlogo-conf-z-git-qr.svg">
+<img height="300" src="netlogo-conf-z-slides-qr.svg">
+#+end_export
+
+
+
+- https://tinyurl.com/netlogo-conf-z-git
+- https://tinyurl.com/netlogo-conf-z-slides
+
 * A personal note
 
 #+begin_export html
